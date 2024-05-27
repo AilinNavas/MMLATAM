@@ -1,5 +1,8 @@
+const { transform } = require('next/dist/build/swc');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,11 +10,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      keyframes: {
+        infinite_scroll: {
+          "100%" : { transform: "translate(calc(-50% - 0.25rem))"}
+        }
       },
+      animation: { infinite_scroll: "infinite_scroll 20s linear infinite"},
+      screens: {
+       
+        'sm': '320px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1600px',
+      },
+      fontSize: {
+        '3/5xl': ['2.125rem', {
+          lineHeight: '3.375rem',
+        }],
+      },
+
     },
   },
   plugins: [],

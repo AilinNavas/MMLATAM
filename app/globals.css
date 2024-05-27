@@ -2,32 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.text-3\.5xl {
+  font-size: 2.125rem;
+  line-height: 3.375rem;
+}
+.aspect-16-9 {
+  aspect-ratio: 16 / 9;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.scroller {
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent) ;;
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent) ;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.scroll_inner{
+  overflow: hidden;
+  width: max-content;
+  flex-wrap: nowrap;
 }
