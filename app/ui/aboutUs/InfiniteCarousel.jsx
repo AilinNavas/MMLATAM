@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 
+
 const InfiniteCarousel= ({logos}) => {
 
     const scrollerRef = useRef(null)

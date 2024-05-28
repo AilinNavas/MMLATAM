@@ -9,7 +9,7 @@ const AboutUs = () => {
         </header>
 
         <div className='rounded-2xl overflow-hidden aspect-video'>
-        <iframe src="https://www.loom.com/embed/d8e96ab640674dd5a489d08c88c00baa?sid=c8087434-05f9-45a8-8592-f271c1205708"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  referrerPolicy="strict-origin-when-cross-origin" webKitAllowFullScreen mozallowFullScreen allowFullScreen className='w-full h-full'></iframe>
+        <iframe src="https://www.loom.com/embed/d8e96ab640674dd5a489d08c88c00baa?sid=c8087434-05f9-45a8-8592-f271c1205708"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  referrerPolicy="strict-origin-when-cross-origin" className='w-full h-full'></iframe>
           {/* <iframe className='w-full h-full' src="https://www.youtube.com/embed/mkEf-1pXdaM?si=5jtglqSduojJk5H1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen illow-src="https://www.youtube.com/embed/mkEf-1pXdaM?si=5jtglqSduojJk5H1"></iframe> */}
         </div>
       </div>

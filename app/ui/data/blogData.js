@@ -155,31 +155,6 @@ const blogData = [
       ],
       "image": ""
     },
-    {
-      "category": "Email Marketing",
-      "title": "Email Marketing: Mantén a tus Pacientes Informados y Comprometidos",
-      "readingTime": "5 minutos",
-      "colorCategory": 'border-[#2B0CEA]',
-      "excerpt": "Descubre cómo el email marketing puede mantener a tus pacientes informados y comprometidos, y aprende a crear contenido atractivo, segmentar tu audiencia y automatizar tus campañas.",
-      "content": [
-        {
-          "subtitle": "Beneficios del Email Marketing",
-          "paragraph": "El email marketing es una herramienta poderosa para mantener a tus pacientes informados sobre noticias, promociones y recordatorios de citas. Es una forma efectiva de construir relaciones duraderas con ellos."
-        },
-        {
-          "subtitle": "Creación de Contenido Atractivo",
-          "paragraph": "El contenido de tus correos electrónicos debe ser atractivo y relevante. Usa imágenes, videos y enlaces para hacer tus mensajes más interactivos y atractivos."
-        },
-        {
-          "subtitle": "Segmentación de tu Audiencia",
-          "paragraph": "Segmentar tu lista de correo te permite enviar mensajes personalizados y relevantes a diferentes grupos de pacientes, aumentando la efectividad de tus campañas."
-        },
-        {
-          "subtitle": "Automatización de Campañas",
-          "paragraph": "La automatización de campañas puede ayudarte a enviar correos electrónicos en el momento adecuado, como recordatorios de citas, felicitaciones de cumpleaños y seguimientos post-tratamiento."
-        }
-      ],
-      "image": ""
-    }
+    
   ]
   export default blogData;  

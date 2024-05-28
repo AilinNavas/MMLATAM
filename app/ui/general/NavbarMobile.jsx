@@ -20,7 +20,7 @@ const AnimatedHamburgerButton = () => {
 
     return (
         <MotionConfig transition={{ duration: 0.5, ease: "easeInOut" }}>
-            <div className='relative z-20'>
+            <div className='relative z-30'>
                 <motion.button
                     initial={false}
                     onClick={() => setActive(pv => !pv)}
