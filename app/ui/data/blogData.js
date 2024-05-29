@@ -1,5 +1,6 @@
 const blogData = [
     {
+      "id": 1,     
       "category": "SEO local",
       "title": "Mejorando la Visibilidad de tu Clínica Dental en Búsquedas Locales",
       "readingTime": "5 minutos",
@@ -26,6 +27,7 @@ const blogData = [
       "image": ""
     },
     {
+      "id": 2,   
       "category": "Diseño web",
       "title": "Diseño Web para Clínicas Dentales: Claves del Éxito",
       "readingTime": "7 minutos",
@@ -52,6 +54,7 @@ const blogData = [
       "image": ""
     },
     {
+      "id": 3,   
       "category": "Email Marketing",
       "title": "Estrategias de Email Marketing para Dentistas",
       "readingTime": "6 minutos",
@@ -78,6 +81,7 @@ const blogData = [
       "image": ""
     },
     {
+      "id": 4,   
       "category": "Consultoria",
       "title": "Cómo la Consultoría Digital Puede Transformar tu Clínica Dental",
       "readingTime": "5 minutos",
@@ -104,6 +108,7 @@ const blogData = [
       "image": ""
     },
     {
+      "id": 5,   
       "category": "SEO local",
       "title": "SEO Local: Cómo Atraer Más Pacientes a tu Clínica Dental",
       "readingTime": "4 minutos",
@@ -130,6 +135,7 @@ const blogData = [
       "image": "/images/seo-local-pacientes.jpg"
     },
     {
+      "id": 6,   
       "category": "Diseño web",
       "title": "Diseño Web Moderno para Clínicas Dentales",
       "readingTime": "6 minutos",
