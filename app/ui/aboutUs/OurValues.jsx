@@ -42,17 +42,18 @@ const OurValues = () => {
         };
     }, []);
 
+
     return (
         <section className='bg-white'>
             <div className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center '>
-                <header className='mb-3 text-left lg:mb-12 lg:text-center 3xl:mb-14'>
+                <header className='mb-3 text-left lg:text-center 3xl:mb-14'>
                     <h2 className='text-[#060606] font-bold pb-12 text-3/5xl text-center'>Our Values</h2>
                 </header>
                 <div className="flex flex-wrap justify-center space-y-4 md:space-y-0 md:space-x-4">
                     {ourValues.map((value, index) => (
                         <motion.div
                             key={index}
-                            className={`flex flex-col items-center p-4 rounded-md shadow-lg max-w-xs border-b-2 border-violet-700`}
+                            className={`flex flex-col items-center p-4 rounded-md shadow-2xl max-w-xs border-b-2 border-violet-700`}
                             initial={{ scale: 0.5, opacity: 0 }}
                             animate={{ scale: 1, opacity: inView ? 1 : 0 }}
                             transition={{ duration: 0.5 , delay: index * 0.5 }}
