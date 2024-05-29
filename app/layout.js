@@ -1,8 +1,8 @@
 import { Nunito_Sans } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import { Archivo } from "next/font/google";
-import { Roboto } from "next/font/google";
 import "./globals.css";
+
 
 export const nunito_sans = Nunito_Sans({ subsets: ["latin"] })
 export const archivo = Archivo({ subsets: ["latin"] })

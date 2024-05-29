@@ -11,8 +11,8 @@ import NavbarMobile from "./ui/general/NavbarMobile";
 export default function Home() {
   return (
     <main >
-      <NavbarPc />
       <NavbarMobile />
+      <NavbarPc />
       <Hero />
       <AboutUs />
       <Services />
