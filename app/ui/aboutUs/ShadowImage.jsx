@@ -16,7 +16,7 @@ const ShadowImage = ({urlImage, altText ,initialColor, animateColor}) => {
             position: "relative",
             boxShadow: `0px -3px 50px 3px ${initialColor}20`
         }}
-        initial={{ backgroundColor: "#fff" }}
+        initial={{ backgroundColor: "#000000" }}
         animate={{
             backgroundColor: "#08f",
             boxShadow: `0px 0px 50px 3px ${animateColor}`
@@ -26,9 +26,8 @@ const ShadowImage = ({urlImage, altText ,initialColor, animateColor}) => {
         <Image 
             src={urlImage}
             alt={altText}
-            layout="fill" 
-            objectFit="cover"
-            className="w-full"
+            quality={80}
+          
         />
     </motion.div>
     );

@@ -17,7 +17,7 @@ const OurMision = () => {
                     </p>
           
                 </div>
-                <Image src={juntos} className='py-8'/>
+                <Image src={juntos} alt='Team Mucho Marketing' className='py-8'/>
             </div>
 
    </section>

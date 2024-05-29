@@ -28,7 +28,7 @@ const InfoPersonal = ({ title, description, values, imageUrl, altText, color, sp
                 {description.map((para, index) => (
                     <p key={index} className={`text-gray-200 px-2 ${specificStyles?.textAlign || ''}`}>{para}</p>
                 ))}
-                <div className='flex flex-col space-y-2 md:flex-row justify-start md:space-y-0 md:space-x-10'>
+                <div className='flex flex-col space-y-14 md:flex-row justify-start md:space-y-0 md:space-x-10'>
                     {values.map((value, index) => {
                         const isExpanded = expandedIndex === index || hoveredIndex === index;
                         return (
