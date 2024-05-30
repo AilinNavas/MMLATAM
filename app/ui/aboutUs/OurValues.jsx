@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useRef } from 'react';
-import { motion } from 'framer-motion';
+import React from 'react';
+
 
 const OurValues = () => {
     const ourValues = [
@@ -20,27 +20,7 @@ const OurValues = () => {
         }
     ];
 
-    const [inView, setInView] = useState(false);
-    const valuesRef = useRef([]);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    setInView(true);
-                }
-            });
-        }, { threshold: 0.5 });
-
-        valuesRef.current.forEach((ref) => {
-            observer.observe(ref);
-        });
-
-        // Cleanup
-        return () => {
-            observer.disconnect();
-        };
-    }, []);
+  
 
 
     return (
@@ -51,20 +31,17 @@ const OurValues = () => {
                 </header>
                 <div className="flex flex-wrap justify-center space-y-4 md:space-y-0 md:space-x-4">
                     {ourValues.map((value, index) => (
-                        <motion.div
+                        <div
                             key={index}
-                            className={`flex flex-col items-center p-4 rounded-md shadow-2xl max-w-xs border-b-2 border-violet-700`}
-                            initial={{ scale: 0.5, opacity: 0 }}
-                            animate={{ scale: 1, opacity: inView ? 1 : 0 }}
-                            transition={{ duration: 0.5 , delay: index * 0.5 }}
-                            ref={(element) => valuesRef.current[index] = element}
+                            className={`flex flex-col items-center p-4 rounded-md shadow-2xl max-w-xs border-t-2 border-violet-700`}
+                          
                         >
                             <div className="flex items-center space-x-2 mb-2">
                                 <span className="text-2xl text-blue-500">{value.icon}</span>
-                                <h6 className="text-xl font-semibold text-[#18181B]">{value.title}</h6>
+                                <h6 className="text-2xl font-semibold text-[#18181B]">{value.title}</h6>
                             </div>
                             <p className="text-[#18181B] text-center">{value.detail}</p>
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
             </div>

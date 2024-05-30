@@ -27,7 +27,7 @@ const InfoPersonal = ({ title, description, values, imageUrl, altText, color, sp
             <div className={`mx-auto space-y-6 flex flex-col justify-center  lg:pl-10 ${specificStyles?.margin || ''}`}>
                 <h4 className='text-white font-semibold text-2xl text-left ml-2'>{title}</h4>
                 {description.map((para, index) => (
-                    <p key={index} className={`text-gray-200 px-2 ${specificStyles?.textAlign || ''}`}>{para}</p>
+                    <p key={index} className={`text-gray-200  ${specificStyles?.textAlign || ''}`}>{para}</p>
                 ))}
                 <div className='flex flex-col space-y-14 md:flex-row justify-start md:space-y-0 md:space-x-10'>
                     {values.map((value, index) => {
