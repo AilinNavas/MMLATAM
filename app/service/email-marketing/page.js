@@ -1,26 +1,24 @@
-import NavbarMobile from "@/app/ui/general/NavbarMobile";
-import NavbarPc from "@/app/ui/general/NavbarPc";
-import Footer from "@/app/ui/home/Footer";
 import HeroService from "@/app/ui/services/HeroService";
 import IntroductionService from "@/app/ui/services/IntroductionService";
 import OfferServices from "@/app/ui/services/OfferServices";
 import PainPointsService from "@/app/ui/services/PainPointsService";
 import StartToday from "@/app/ui/services/StartToday";
 import WhyService from "@/app/ui/services/WhyService";
+import serviceDescriptionAll  from '../../ui/data/ServiceDescriptionAll'
 
 
-export default function EmailMarketing() {
+export default function EmailMarketingPage() {
+  const service = serviceDescriptionAll.find(service => service.serviceName === "Email Marketing");
   return (
     <main >
-    <NavbarMobile />
-    <NavbarPc />
-    <HeroService />
-    <IntroductionService />
-    <WhyService />
-    <OfferServices />
-    <PainPointsService />
-    <StartToday />
-    <Footer />
+     
+      <HeroService nameService={service.serviceName} colorService={service.colorService} descriptiveTitle={service.descriptiveTitle} />
+      <IntroductionService nameService={service.serviceName} serviceIntroduction={service.serviceIntroduction} />
+      <WhyService nameService={service.serviceName} summaryService={service.summaryService} serviceBenefits={service.serviceBenefits} />
+      <OfferServices introductionOffer={service.introductionOffer} tactics={service.tactics} />
+      <PainPointsService painPoints={service.painPoints} />
+      <StartToday goals={service.goals} startToday={service.startToday}/>
+  
     </main>
   );
 }

@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
-const AccordionItem = ({ title, content }) => {
+const AccordionItem = ({ title, description }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -35,7 +35,7 @@ const AccordionItem = ({ title, content }) => {
         className="overflow-hidden"
       >
         <div className="p-4 text-base leading-6">
-          <p>{content}</p>
+          <p>{description}</p>
         </div>
       </motion.div>
     </div>

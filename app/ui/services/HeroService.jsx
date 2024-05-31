@@ -1,20 +1,18 @@
 import React from 'react';
-import Image from 'next/image';
-import email from '@/public/email.jpg'
 
-const HeroService = () => {
+const HeroService = ({ nameService, colorService, descriptiveTitle}) => {
   return (
     <div className='w-[100vw] bg-black'>
 
-      <div className='relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 mx-auto'>
+      <div className='relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 mx-auto max-w-7xl'>
         <div className='relative'>
-          <span className='bg-[#2B0CEA] text-white absolute -top-20  p-2 text-lg leading-7 font-medium rounded-full'>Email Marketing</span>
+          <span className={` ${colorService} text-white absolute -top-20  py-3 px-6 text-lg leading-7 font-medium rounded-full`} >{nameService}</span>
           <h3 className='text-white font-bold text-center text-4xl tracking-tight md:text-5xl lg:text-6xl space-y-2'>
-            Transform Your Dental Practice with Proven Email Marketing Strategies
+          {descriptiveTitle}
           </h3>
           <div className='mt-5 max-w-sm mx-auto flex-col space-y-4 md:flex-row flex justify-center items-center md:mt-8 lg:px-4 md:space-x-4 md:space-y-0'>
-            <button className='bg-white text-base leading-5 text-black font-semibold py-3 px-6 rounded-md w-full'>Contratar</button>
-            <button className='bg-transparent leading-5 text-base text-white border-2 border-white font-semibold py-3 px-6 rounded-md w-full'>Beneficios</button>
+            <button className='bg-white text-base leading-5 text-black font-semibold py-3 px-6 rounded-md w-full'>Hire Now</button>
+            <button className='bg-transparent leading-5 text-base text-white border-2 border-white font-semibold py-3 px-6 rounded-md w-full'>Know more</button>
           </div>
         </div>
       </div>

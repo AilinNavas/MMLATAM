@@ -1,6 +1,6 @@
 import React from 'react'
 
-const StartToday = () => {
+const StartToday = ({ goals, startToday }) => {
   return (
     <section className='bg-white py-20'>
 
@@ -8,19 +8,17 @@ const StartToday = () => {
         <header>
           <h2 className='text-black text-3/5xl font-bold text-center'>Achieve Your Goals</h2>
           <div className='text-lg leading-8 font-normal text-left w-full mt-5'>
-            <p>Your goals are our goals. Whether you aim to grow your patient base, increase referrals, or simply improve communication with your current patients, we have the expertise to make it happen. Imagine having a full appointment book, a strong network of referring dentists, and loyal patients who trust your care. That’s the power of effective email marketing.
-            </p>
+            <p>{goals}</p>
           </div>
         </header>
 
         <div className='pt-20'>
           <h2 className='text-black text-3/5xl font-bold text-center'>Start Today</h2>
           <div className='text-lg leading-8 font-normal text-left w-full mt-5'>
-            <p>Don’t let your dental practice miss out on the benefits of email marketing. Partner with MUCHO <strong>MARKETING</strong> and watch your practice grow. Contact us today for a free consultation and discover how our email marketing services can transform your practice.
-            </p>
+            <p>{startToday}</p>
           </div>
           <div className='flex items-center justify-center mt-20'>
-          <button className='bg-lime-500 px-4 py-2 font-semibold rounded-md hover:bg-lime-600'> Get Your Free Consultation</button>
+            <button className='bg-lime-500 px-6 py-3 font-semibold rounded-md hover:bg-lime-600'> Get Your Free Consultation</button>
           </div>
         </div>
 
