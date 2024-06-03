@@ -5,7 +5,7 @@ const AboutUs = () => {
     <section className='bg-[#0F0F11]'>
       <div className='mx-auto max-w-7xl py-12 px-4 flex flex-col justify-center'>
         <header>
-          <h2 className='text-[#F7F7FA] font-semibold pb-12 text-3/5xl text-center'>Conocé Mucho Marketing</h2>
+          <h2 className='text-[#F7F7FA] font-semibold pb-12 text-3/5xl text-center'>Meet Mucho Marketing</h2>
         </header>
 
         <div className='rounded-2xl overflow-hidden aspect-video'>

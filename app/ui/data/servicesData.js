@@ -75,8 +75,8 @@ const services = [
       ]
     },
     {
-      name: 'Consultoria',
-      href: '/service/consultancy',
+      name: 'Branding',
+      href: '/service/branding',
       active: 'bg-[#FF7A00]',
       cards: [
         {

@@ -2,6 +2,7 @@
 import React from 'react';
 import { Roboto } from "next/font/google";
 import Image from 'next/image';
+import Link from 'next/link';
 import Neal from '../../../public/Neal.jpeg';
 import Noel from '../../../public/Noel.jpg';
 import man2 from '../../../public/man2.jpg'
@@ -40,7 +41,7 @@ const Testimonials = () => {
                 <div className='hidden md:flex lg:max-w-[360px] mx-auto  flex-col w-44 lg:flex-row overflow-hidden items-center justify-center space-y-2 lg:space-y-0 lg:space-x-2 lg:w-[100%]'>
                  <button className='bg-white w-full h-10 rounded-md font-medium p-2 text-violet-500 cursor-grab'>
                     <span>Case Study</span>
-                  </button> 
+                  </button>
              
 
 
@@ -78,7 +79,7 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <div className='hidden lg:max-w-[360px] mx-auto md:flex flex-col w-44 lg:flex-row overflow-hidden items-center justify-center space-y-2 lg:space-y-0 lg:space-x-2 lg:w-[100%]'>
-                  <button className='bg-white w-full h-10 rounded-md font-medium p-2 text-violet-300 hover:bg-purple-200'>
+               <button className='bg-white w-full h-10 rounded-md font-medium p-2 text-violet-300 hover:bg-purple-200'>
                     <span>Case Study</span>
                   </button>
                   <button className="group w-full cursor-grab relative bg-[#0a66c2] rounded text-neutral-50 duration-500 font-medium flex justify-start gap-2 items-center p-2">
@@ -114,9 +115,9 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <div className='lg:max-w-[360px] mx-auto flex flex-col w-44 lg:flex-row overflow-hidden items-center justify-center space-y-2 lg:space-y-0 lg:space-x-2 lg:w-[100%]'>
-                 <button className='bg-white w-full h-10 rounded-md font-medium p-2 text-violet-500 hover:bg-purple-200'>
+                <Link href='/case-study' passHref legacyBehavior><button className='bg-white w-full h-10 rounded-md font-medium p-2 text-violet-500 hover:bg-purple-200'>
                     <span>Case Study</span>
-                  </button> 
+                  </button></Link>
 
               
 

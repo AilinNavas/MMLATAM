@@ -7,11 +7,12 @@ import WhyService from "@/app/ui/services/WhyService";
 import serviceDescriptionAll  from '../../ui/data/ServiceDescriptionAll'
 
 
-export default function WebDesignPage() {
-  const service = serviceDescriptionAll.find(service => service.serviceName === "Web Design");
+export default function EmailMarketingPage() {
+  const service = serviceDescriptionAll.find(service => service.serviceName === "Branding");
   return (
     <main >
-     <HeroService nameService={service.serviceName} colorService={service.colorService} descriptiveTitle={service.descriptiveTitle} />
+     
+      <HeroService nameService={service.serviceName} colorService={service.colorService} descriptiveTitle={service.descriptiveTitle} />
       <IntroductionService nameService={service.serviceName} serviceIntroduction={service.serviceIntroduction} />
       <WhyService nameService={service.serviceName} summaryService={service.summaryService} serviceBenefits={service.serviceBenefits} />
       <OfferServices introductionOffer={service.introductionOffer} tactics={service.tactics} />
@@ -21,4 +22,3 @@ export default function WebDesignPage() {
     </main>
   );
 }
-

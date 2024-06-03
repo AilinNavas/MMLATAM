@@ -18,7 +18,7 @@ const PainPointsService = ({painPoints}) => {
                 }`}
               >
                 <div className="mt-3 lg:mt-3 lg:ml-0 h-full flex flex-col justify-start px-4 mx-auto">
-                  <h3 className="text-lg leading-5 font-semibold mb-4">{point.title}</h3>
+                  <h3 className="text-lg leading-5 font-semibold mb-4 md:h-12">{point.title}</h3>
                   <p className="mt-2 text-lg leading-7 font-normal font-archivo">{point.description}</p>
                 </div>
               </div>
