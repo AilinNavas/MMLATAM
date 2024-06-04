@@ -1,22 +1,26 @@
 import React from 'react';
+import Image from 'next/image';
+import innovation from '@/public/icons-values/innovation.gif';
+import quality from '@/public/icons-values/quality.gif';
+import customization from '@/public/icons-values/customization.gif';
 
 
 const OurValues = () => {
     const ourValues = [
         {
-            title: 'Innovación',
-            icon: '',
-            detail: 'Nos mantenemos a la vanguardia, evolucionando constantemente nuestras estrategias y técnicas para garantizar que nuestros clientes reciban los mejores resultados posibles.'
+            title: 'Innovation',
+            iconSrc: innovation,
+            detail: 'We stay ahead of the curve, constantly evolving our strategies and techniques to ensure our clients receive the best possible outcomes.'
         },
         {
-            title: 'Calidad',
-            icon: '',
-            detail: 'Estamos comprometidos a brindar servicios de primer nivel que cumplan con los más altos estándares de excelencia.'
+            title: 'Quality',
+            iconSrc: quality,
+            detail: 'We are committed to delivering top-notch services that meet the highest standards of excellence.'
         },
         {
-            title: 'Personalizacion',
-            icon: '',
-            detail: 'Entendemos que cada práctica dental es única y adaptamos nuestros servicios para satisfacer las necesidades y objetivos específicos de cada cliente.'
+            title: 'Customization',
+            iconSrc: customization,
+            detail: 'We understand that every dental practice is unique, and we tailor our services to meet the specific needs and goals of each client.'
         }
     ];
 
@@ -33,14 +37,14 @@ const OurValues = () => {
                     {ourValues.map((value, index) => (
                         <div
                             key={index}
-                            className={`flex flex-col items-center p-4 rounded-md shadow-2xl max-w-xs border-t-2 border-violet-700`}
+                            className={`flex flex-col items-center p-4 rounded-md shadow-xl max-w-xs border-2 `}
                           
                         >
-                            <div className="flex items-center space-x-2 mb-2">
-                                <span className="text-2xl text-blue-500">{value.icon}</span>
+                            <div className="flex items-center justify-center mb-4">
+                                <Image src={value.iconSrc} className="w-10" unoptimized />
                                 <h6 className="text-2xl font-semibold text-[#18181B]">{value.title}</h6>
                             </div>
-                            <p className="text-[#18181B] text-center">{value.detail}</p>
+                            <p className="text-[#18181B] text-left">{value.detail}</p>
                         </div>
                     ))}
                 </div>

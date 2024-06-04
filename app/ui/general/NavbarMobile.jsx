@@ -83,8 +83,9 @@ const AnimatedHamburgerButton = () => {
                             <Link href="/service/branding" className="text-white text-2xl" onClick={handleLinkClick}>Branding</Link>
                         </div>
                         <p className='pl-4 font-light text-white text-sm'>Transform your dental practice with a powerful, memorable brand</p>
-                        <Link href="/about-us" className="text-white text-2xl ml-2 pt-1" onClick={handleLinkClick}>Acerca de nosotros</Link>
+                        <Link href="/about-us" className="text-white text-2xl ml-2 pt-1" onClick={handleLinkClick}>About Us</Link>
                         <Link href="/blog" className="text-white text-2xl ml-2" onClick={handleLinkClick}>Blog</Link>
+                        <Link href="/case-study" className="text-white text-2xl ml-2" onClick={handleLinkClick}>Case Study</Link>
                     </nav>
                 </motion.div>
             </div>

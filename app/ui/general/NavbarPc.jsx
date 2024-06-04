@@ -4,14 +4,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion'
 import Logo from '../general/Logo'
-import joel from '../../../public/joel.jpg'
-import ailin from '../../../public/ailin.png'
+import joel from '@/public/joel.jpg'
+import ailin from '@/public/ailin.png'
+import southsideEndodontics from '@/public/southsideEndodontics.jpeg'
+
+
 
 
 const NavbarPc = () => {
 
   return (
-    <div className='hidden lg:flex bg-black h-20 items-center  px-3 py-12'>
+    <div className='hidden lg:flex bg-black h-20 items-center px-3 py-12'>
       <Logo />
       <div className='flex justify-around items-center cursor-pointer lg:w-3/5' >
         <FlyoutLink href='#' FlyoutContent={ServicesOptions}>
@@ -27,6 +30,11 @@ const NavbarPc = () => {
         </FlyoutLink>
         <FlyoutLink href='/blog' FlyoutContent={Blog}  >
           <span className='flex items-center text-lg font-medium  text-gray-200  hover:text-white'>Blog
+          </span>
+        </FlyoutLink>
+
+        <FlyoutLink href='/case-study' FlyoutContent={CaseStudy}  >
+          <span className='flex items-center text-lg font-medium  text-gray-200  hover:text-white'>Case Study
           </span>
         </FlyoutLink>
 
@@ -123,7 +131,7 @@ const ServicesOptions = () => {
 const AboutUs = () => {
   return (
     <div className='w-[500px] flex h-40 bg-black p-6 cursor-pointer'>
-      <Link href="/aboutUs" className='flex'>
+      <Link href="/about-us" className='flex'>
         <div className='group relative flex justify-center items-center w-1/3'>
           <Image src={joel} className='w-20 h-20 rounded-full' alt='Joel MuchoMarketing' />
           <Image src={ailin} className='w-20 h-20 -ml-4 rounded-full' alt='Ailin MuchoMarketing' />
@@ -136,16 +144,29 @@ const AboutUs = () => {
     </div>
   )
 }
-
 const Blog = () => {
   return (
     <div className='w-[600px] flex h-40 bg-black p-6 cursor-pointer'>
       <Link href={'/blog'}>
-        <div className='group relative flex flex-col w-full'>
-          <h5 className='font-bold'>Latest Blog Posts</h5>
-          <p className='pt-2 font-light hover:font-medium'>Mejorando la Visibilidad de tu Clínica Dental en Búsquedas Locales</p>
-          <p className='pt-2 font-light hover:font-medium'>Diseño Web para Clínicas Dentales: Claves del Éxito</p>
-          <p className='pt-2 font-light hover:font-medium'>Estrategias de Email Marketing para Dentistas</p>
+      <div className='group relative flex flex-col w-full'>
+        <h5 className='font-bold'>Latest Blog Posts</h5>
+        <p className='pt-2 font-light hover:font-medium'>Mejorando la Visibilidad de tu Clínica Dental en Búsquedas Locales</p>
+        <p className='pt-2 font-light hover:font-medium'>Diseño Web para Clínicas Dentales: Claves del Éxito</p>
+        <p className='pt-2 font-light hover:font-medium'>Estrategias de Email Marketing para Dentistas</p>
+      </div>
+      </Link>
+    </div>
+  )
+}
+
+const CaseStudy = () => {
+  return (
+    <div className='w-[380px] flex h-40 bg-black p-6 cursor-pointer'>
+      <Link href={'/case-study'}>
+        <div className='group relative flex w-full items-center justify-center'>
+        <Image src={southsideEndodontics} className='w-28 rounded-lg' alt='Ailin MuchoMarketing' />
+    
+          <p className='px-4 font-light'>Discover how we helped Southside Endodontics transform its online presence</p>
         </div>
       </Link>
     </div>

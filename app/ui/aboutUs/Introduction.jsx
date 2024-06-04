@@ -5,12 +5,12 @@ const Introduction = () => {
       <section className='bg-[#09090A] pt-20'>
             <div className='mx-auto  max-w-7xl px-4 flex flex-col justify-start items-center'>
                 <header>
-                    <h2 className='text-[#F7F7FA] font-semibold pb-12 text-3/5xl text-center'>Acerca de nosotros: conozca a nuestros fundadores</h2>
+                    <h2 className='text-[#F7F7FA] font-semibold pb-12 text-3/5xl text-center'>Meet Our Founders</h2>
                 </header>
 
-                <div>
-                    <p className='text-white'>En MUCHO <strong>MARKETING</strong>, creemos que cada consultorio dental merece brillar en línea. Nuestros fundadores, Joel y Ailin , reúnen su amplia experiencia en SEO y diseño web para crear una agencia de marketing dental que se destaca en un mercado saturado. ¿Su misión? Brindar servicios excepcionales y personalizados a mejores precios, marcando una diferencia real para los consultorios dentales en todas partes.
-                    </p>
+                <div className='text-white space-y-4'>
+                    <p >At MUCHO <strong>MARKETING</strong>, we believe that every dental practice deserves to shine online. Our founders, Joel and Ailin, bring together their extensive expertise in SEO and web design to create a dental marketing agency that stands out in a saturated market. </p>
+                    <p>Their objetive? To provide exceptional, customized services at better rates, making a real difference for dental practices everywhere.</p>
                 </div>
             </div>
             </section>
