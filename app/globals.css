@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 .text-3\.5xl {
   font-size: 2.125rem;
   line-height: 3.375rem;

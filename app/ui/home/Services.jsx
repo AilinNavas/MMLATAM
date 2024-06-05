@@ -24,7 +24,7 @@ const Services = () => {
   };
 
   return (
-    <section className='-mb-1 bg-[#09090A] py-20 px-4 lg:px-0 text-[#FCFCFE]'>
+    <section id='our-services' className='-mb-1 bg-[#09090A] py-20 px-4 lg:px-0 text-[#FCFCFE]'>
       <div className='lg:w-10/12 lg:m-auto'>
         <header>
           <h2 className='text-[#FCFCFE] text-3xl font-bold text-center lg:text-[48px]'>Descubrí cómo podemos acompañarte.</h2>
