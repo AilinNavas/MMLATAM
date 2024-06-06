@@ -17,7 +17,7 @@ const HeroService = ({ nameService, colorService, descriptiveTitle}) => {
             {/* <button className='bg-white text-base leading-5 text-black font-semibold py-3 px-6 rounded-md w-full'>Hire Now</button>
             <button className='bg-transparent leading-5 text-base text-white border-2 border-white font-semibold py-3 px-6 rounded-md w-full'>Know more</button> */}
           {/* </div> */} 
-          <div className='mt-5 max-w-sm mx-auto flex-col md:flex-row flex justify-center items-center md:mt-8 lg:px-4'>
+          <div className='mt-5 max-w-sm mx-auto flex-col md:flex-row flex justify-center items-center md:mt-8 lg:px-2'>
             <Button bg={'bg-white'} bgHover={'hover:bg-gray-300'} text={'Empezar hoy'} textColor={'text-black'} especif={'m-1 px-0'} />
             <Button bg={'bg-transparent'}text={'Conocer más'} textColor={'text-white'} especif={'m-1 border-2 border-white px-0'}/>
           </div>

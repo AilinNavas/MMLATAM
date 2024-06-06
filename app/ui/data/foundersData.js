@@ -19,7 +19,7 @@ const foundersData = [
             },
             {
                 title: 'CONECTOR',
-                detail: ': Se destaca por cerrar la brecha entre los negocios y sus públicos objetivo, garantizando una comunicación y un compromiso efectivos.'
+                detail: 'Se destaca por cerrar la brecha entre los negocios y sus públicos objetivo, garantizando una comunicación y un compromiso efectivos.'
             }
         ],
         imageUrl: joel,
