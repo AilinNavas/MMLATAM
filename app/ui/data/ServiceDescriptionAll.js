@@ -194,7 +194,7 @@ const serviceDescriptionAll = [
             },
             {
                 title: "Mensajes de Marca y Narración de Historias",
-                description: "Un branding efectivo cuenta una historia. Creamos mensajes y historias de marca convincentes que transmiten los valores, la experiencia y los puntos de venta únicos de tu empresa, creando una conexión emocional con tus clientes."
+                description: "Un branding efectivo cuenta una historia. Creamos mensajes e historias de marca convincentes que transmiten los valores, la experiencia y los puntos de venta únicos de tu empresa, creando una conexión emocional con tus clientes."
             },
             {
                 title: "Materiales de Marketing e Impresos",
@@ -202,7 +202,7 @@ const serviceDescriptionAll = [
             },
             {
                 title: "Branding en Redes Sociales",
-                description: "Creamos perfiles de redes sociales coherentes que reflejen la personalidad de tu marca y atraigan a tu audiencia. Nuestras estrategias incluyen creación de contenido, diseño visual y comunicación consistente con la marca."
+                description: "Creamos perfiles de redes sociales coherentes que reflejen la personalidad de tu marca y atraigan a tu audiencia."
             },
             {
                 title: "Gestión y Evolución de la Marca",
