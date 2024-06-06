@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
    <>
    <NavbarMobile />
    <NavbarPc />
-   <Banner text={'How We Help a Leading Endodontic Practice Dominate Local Search Results'} />
+   <Banner text={'La trasformación es uno a uno'} />
    {children}
    <Footer />
    </>

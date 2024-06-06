@@ -7,14 +7,14 @@ const StartToday = ({ goals, startToday }) => {
 
       <div className='mx-auto max-w-7xl px-4'>
         <header>
-          <h2 className='text-black text-3/5xl font-bold text-center'>Achieve Your Goals</h2>
+          <h2 className='text-black text-3/5xl font-bold text-center'>Tus objetivos, nuestros objetivos</h2>
           <div className='text-lg leading-8 font-normal text-left w-full mt-5'>
             <p>{goals}</p>
           </div>
         </header>
 
         <div className='pt-20'>
-          <h2 className='text-black text-3/5xl font-bold text-center'>Start Today</h2>
+          <h2 className='text-black text-3/5xl font-bold text-center'>Comenzar hoy</h2>
           <div className='text-lg leading-8 font-normal text-left w-full mt-5'>
             <p>{startToday}</p>
           </div>
@@ -27,7 +27,7 @@ const StartToday = ({ goals, startToday }) => {
 
       </div>
       <div className="flex justify-center items-end w-full pt-16 md:pb-20">
-        <Button bg={'bg-lime-500'} bgHover={'hover:bg-lime-600'} text={"Get Your Free Consultation"} textColor={'text-white'} especif={'rounded-none lg:max-w-80 lg:rounded-md'} />
+        <Button bg={'bg-lime-500'} bgHover={'hover:bg-lime-600'} text={"Obtener una consulta gratuita"} textColor={'text-white'} especif={'rounded-none lg:max-w-80 lg:rounded-md px-0'} />
       </div>
 
 

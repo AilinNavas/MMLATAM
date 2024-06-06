@@ -10,17 +10,17 @@ const Footer = () => {
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="">
             <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase inline-block">
-              Usefull Links
+             ENLACES ÚTILES
             </h3>
             <ul className="mt-4 space-y-4 ">
               <li className="text-base text-gray-300 hover:text-white">
                 <Link href="/blog">Blog</Link>
               </li>
               <li className="text-base text-gray-300 hover:text-white">
-                <Link href="/aboutUs">About Us</Link>
+                <Link href="/aboutUs">Sobre nosotros</Link>
               </li>
               <li className="text-base text-gray-300 hover:text-white">
-                <Link href="/case-study">Case Study</Link>
+                <Link href="/case-study">Caso de Exíto</Link>
               </li>
             </ul>
 
@@ -28,10 +28,10 @@ const Footer = () => {
           <div className="mt-8 lg:mt-0">
             <div className="mb-6">
               <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                RECEIVE MORE INFORMATION
+                RECIBE MÁS INFORMACIÓN
               </h3>
               <p className="mt-4 text-sm text-gray-300">
-              We would love to contact you.
+              Nos encantaria contactarte.
               </p>
               <form className="mt-4 sm:max-w-md" noValidate="">
                 <div className="flex flex-col w-full md:flex-row md:h-full lg:items-center md:space-x-2">
@@ -41,7 +41,7 @@ const Footer = () => {
                       <input
                         type="email"
                         id="email"
-                        placeholder="Enter your e-mail"
+                        placeholder="Ingresa tu e-mail"
                         name="email"
                         className="border-white rounded-md h-[3rem] block w-full shadow-sm p-3 border bg-white-2 text-p3 text-gray-1 placeholder-gray-7 focus:ring-gray-800 focus:border-gray-500"
                       ></input>
@@ -51,7 +51,7 @@ const Footer = () => {
                     <Button
                       bg={"bg-violet-500"}
                       bgHover={"hover:bg-violet-900"}
-                      text={"Contact"}
+                      text={"Contactar"}
                       textColor={"text-white"}
                       especif={"h-full lg:max-w-36 lg:rounded-md"}
                     />

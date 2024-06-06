@@ -8,7 +8,7 @@ const WhyService = ({ nameService, summaryService, serviceBenefits }) => {
                 <div className="flex flex-col py-3 items-start md:items-center md:flex-row  md:justify-evenly lg:max-w-7xl lg:m-auto">
 
                     <div className="text-white rounded md:w-[43%] 2xl:w-[51%]">
-                        <div className="border-2 text-lg leading-6 border-white rounded-full text-center py-1 w-56">Why {nameService} ?</div>
+                        <div className="border-2 text-lg leading-6 border-white rounded-full text-center py-2 w-60">¿Por qué {nameService}?</div>
                         <div className="text-3/5xl leading-9 font-bold pt-5 pb-2 lg:py-4 lg:text-4.5xl lg:leading-15 ">{nameService}</div>
                         <div className="text-sm w-72 leading-5 font-medium pb-6 lg:w-full lg:pb-0 ">
                             <p className="mb-6">{summaryService}</p>

@@ -8,7 +8,7 @@ import serviceDescriptionAll  from '../../ui/data/ServiceDescriptionAll'
 
 
 export default function WebDesignPage() {
-  const service = serviceDescriptionAll.find(service => service.serviceName === "Web Design");
+  const service = serviceDescriptionAll.find(service => service.serviceName === "Diseño Web");
   return (
     <main >
      <HeroService nameService={service.serviceName} colorService={service.colorService} descriptiveTitle={service.descriptiveTitle} />

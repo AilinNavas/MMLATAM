@@ -33,7 +33,8 @@ const Testimonials = () => {
                     <h4 className={` ${roboto.className} text-[#0a66c2]`}>Designer</h4>
                     <div className="text-sm pt-5 text-white font-archivo">
                       <p className={`${roboto.className} hidden md:block`}>
-                        “Joel is very professional in dealing with you. As a mentor, I advise myself so that my business improves, I achieve goals and objectives. Regarding marketing, I provide appropriate advice to optimize my professional achievements. Thank you very much Joel for all your excellent quality service.”
+                        "Joel ha sido un activo valioso para mi práctica de endodoncia. Sus habilidades con SEO han posicionado constantemente mi práctica en la parte superior de los resultados de búsqueda. Él siempre tiene ideas únicas y creativas sobre cómo comercializar más eficazmente mi práctica, y hemos visto resultados mediante la aplicación de sus estrategias. No dudaría en recomendar a Joel a cualquiera que busque posicionar mejor su consulta a través del marketing digital."
+”
                       </p>
                     </div>
                   </div>
@@ -96,7 +97,7 @@ const Testimonials = () => {
           {/* Main testimonial card */}
           <div className='relative h-full flex flex-col justify-center bg-[#202024] max-w-[288px] lg:max-w-[500px] mx-auto border border-sky-500 rounded-lg'>
             <div className="w-full py-10 px-6 text-center">
-              <span className="absolute left-0 top-5 inline-flex items-center px-4 py-3 rounded-r-xl text-sm font-medium text-white capitalize bg-[#0a66c2]">Owner</span>
+              <span className="absolute left-0 top-5 inline-flex items-center px-2 md:px-4 py-3 rounded-r-xl text-sm font-medium text-white capitalize bg-[#0a66c2]">Clínica Dental</span>
               <div className="space-y-6 xl:space-y-10">
                 <div className="mx-auto relative h-28 w-28">
                   <span className="box-border block overflow-hidden w-auto h-auto bg-none opacity-100 border-0 m-0 p-0 absolute inset-0 rounded-full">
@@ -109,14 +110,14 @@ const Testimonials = () => {
                     <h4 className={` ${roboto.className} text-[#0a66c2]`}>Southside Endodontics</h4>
                     <div className="text-sm pt-5 text-white font-archivo">
                       <p className={`${roboto.className}`}>
-                        “Joel has been a valuable asset to my endodontic practice. He skills with SEO have constantly positioned my practice at the top of the search results. He always has unique and creative ideas about how to more effectively market my practice, and we’ve seen results by implementing his strategies. I would not hesitate to recommend Joel to anyone looking to better position their practice through digital marketing.”
+                        “Joel ha sido un activo valioso para mi práctica de endodoncia. Sus habilidades con SEO han posicionado constantemente mi práctica en la parte superior de los resultados de búsqueda. Él siempre tiene ideas únicas y creativas sobre cómo comercializar más eficazmente mi práctica, y hemos visto resultados mediante la aplicación de sus estrategias. No dudaría en recomendar a Joel a cualquiera que busque posicionar mejor su consulta a través del marketing digital.”
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className='lg:max-w-[360px] mx-auto flex flex-col w-44 lg:flex-row overflow-hidden items-center justify-center space-y-2 lg:space-y-0 lg:space-x-2 lg:w-[100%]'>
                 <Link href='/case-study' passHref legacyBehavior><button className='bg-white w-full h-10 rounded-md font-medium p-2 text-violet-500 hover:bg-purple-200'>
-                    <span>Case Study</span>
+                    <span>Caso de Éxito</span>
                   </button></Link>
 
               
@@ -130,7 +131,7 @@ const Testimonials = () => {
                     <svg className="w-6 h-6 fill-neutral-50" height="100" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" width="100" x="0" xmlns="http://www.w3.org/2000/svg" y="0">
                       <path d="M92.86,0H7.12A7.17,7.17,0,0,0,0,7.21V92.79A7.17,7.17,0,0,0,7.12,100H92.86A7.19,7.19,0,0,0,100,92.79V7.21A7.19,7.19,0,0,0,92.86,0ZM30.22,85.71H15.4V38H30.25V85.71ZM22.81,31.47a8.59,8.59,0,1,1,8.6-8.59A8.6,8.6,0,0,1,22.81,31.47Zm63,54.24H71V62.5c0-5.54-.11-12.66-7.7-12.66s-8.91,6-8.91,12.26V85.71H39.53V38H53.75v6.52H54c2-3.75,6.83-7.7,14-7.7,15,0,17.79,9.89,17.79,22.74Z"></path>
                     </svg>
-                    <span className="border-l-2 px-1">On LinkedIn</span>
+                    <span className="border-l-2 px-1">Ver LinkedIn</span>
                   </button>
                 </div>
               </div>

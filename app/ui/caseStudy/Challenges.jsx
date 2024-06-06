@@ -3,10 +3,10 @@ import Image from 'next/image'
 import neutral from '@/public/arrow.svg'
 
 const challenges = [
-    { title: "Low Online Visibility:", description: "Southside Endodontics was not appearing on the first page of Google search results for relevant local queries, resulting in lost potential patient traffic." },
-    { title: "Limited Local Keyword Usage: ", description: "The practice’s website lacked content optimized for specific local keywords, making it difficult for search engines to recognize their relevance to local searchers." },
-    { title: "Outdated Website Structure:", description: "Their website’s structure and navigation were not optimized for search engines or user experience, leading to high bounce rates and lower rankings." },
-    { title: "Poor Google My Business Optimization: ", description: "Their Google My Business (GMB) profile was incomplete and not optimized, missing out on a key opportunity to attract local searchers." },
+    { title: "Baja visibilidad online::", description: "Southside Endodontics no aparecía en la primera página de resultados de búsqueda de Google para consultas locales relevantes, lo que provocaba la pérdida de tráfico de pacientes potenciales." },
+    { title: "Uso limitado de palabras clave locales: ", description: "El sitio web de la consulta carecía de contenido optimizado para palabras clave locales específicas, lo que dificultaba que los motores de búsqueda reconocieran su relevancia para los buscadores locales." },
+    { title: "Estructura del sitio web obsoleta:", description: "La estructura y la navegación de su sitio web no estaban optimizadas para los motores de búsqueda ni para la experiencia del usuario, lo que provocaba altas tasas de rebote y clasificaciones más bajas." },
+    { title: "Mala optimización de Google My Busines:", description: "Su perfil de Google My Business (GMB) estaba incompleto y no estaba optimizado, por lo que se perdía una oportunidad clave para atraer a los buscadores locales." },
 ]
 
 const Challenges = () => {
@@ -14,7 +14,7 @@ const Challenges = () => {
         <section className='bg-[#09090A] text-[#FCFCFE]'>
             <div className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center'>
                 <header>
-                    <h4 className='font-semibold pb-12 text-3/5xl text-center'>Challenges</h4>
+                    <h4 className='font-semibold pb-12 text-3/5xl text-center'>Desafíos</h4>
                 </header>
 
                 <div className=' space-y-4 text-lg'>

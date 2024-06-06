@@ -20,8 +20,8 @@ export default function Page({ params }) {
                     </div>
                 ))}
               <Link href={'/blog'}>
-              <div className="flex justify-end">
-                <span> ← Return</span>
+              <div className="flex justify-end items-end">
+                <span> ← Volver</span>
               </div>
               </Link>
             </div>

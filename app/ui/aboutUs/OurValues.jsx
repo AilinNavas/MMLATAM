@@ -8,19 +8,19 @@ import customization from '@/public/icons-values/customization.gif';
 const OurValues = () => {
     const ourValues = [
         {
-            title: 'Innovation',
+            title: 'Inovación',
             iconSrc: innovation,
-            detail: 'We stay ahead of the curve, constantly evolving our strategies and techniques to ensure our clients receive the best possible outcomes.'
+            detail: 'Nos mantenemos a la vanguardia, evolucionando constantemente nuestras estrategias y técnicas para garantizar los mejores resultados.'
         },
         {
-            title: 'Quality',
+            title: 'Calidad',
             iconSrc: quality,
-            detail: 'We are committed to delivering top-notch services that meet the highest standards of excellence.'
+            detail: 'Estamos comprometidos a brindar servicios de primer nivel que cumplan con los más altos estándares de excelencia.'
         },
         {
-            title: 'Customization',
+            title: 'Personalización',
             iconSrc: customization,
-            detail: 'We understand that every dental practice is unique, and we tailor our services to meet the specific needs and goals of each client.'
+            detail: 'Entendemos que cada práctica dental es única y adaptamos nuestros servicios para satisfacer las necesidades y objetivos específicos de cada cliente.'
         }
     ];
 
@@ -31,7 +31,7 @@ const OurValues = () => {
         <section className='bg-white'>
             <div className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center '>
                 <header className='mb-3 text-left lg:text-center 3xl:mb-14'>
-                    <h2 className='text-[#060606] font-bold pb-12 text-3/5xl text-center'>Our Values</h2>
+                    <h2 className='text-[#060606] font-bold pb-12 text-3/5xl text-center'>Nuestros valores</h2>
                 </header>
                 <div className="flex flex-wrap justify-center space-y-4 md:space-y-0 md:space-x-4">
                     {ourValues.map((value, index) => (
@@ -44,7 +44,7 @@ const OurValues = () => {
                                 <Image src={value.iconSrc} className="w-10" unoptimized />
                                 <h6 className="text-2xl font-semibold text-[#18181B]">{value.title}</h6>
                             </div>
-                            <p className="text-[#18181B] text-left">{value.detail}</p>
+                            <p className="text-[#18181B] text-center">{value.detail}</p>
                         </div>
                     ))}
                 </div>

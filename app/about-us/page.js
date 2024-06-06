@@ -16,7 +16,7 @@ export default function AboutUs() {
     <main >
       <NavbarMobile />
       <NavbarPc />
-      <Banner text={'Experience the difference passion and dedication can make'} />
+      <Banner text={'Experimentá la diferencia que pueden marcar la pasión y la dedicación'} />
       <Introduction />
       <OurTeam /> 
       <OurValues />

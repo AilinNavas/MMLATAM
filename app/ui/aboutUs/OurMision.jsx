@@ -8,13 +8,13 @@ const OurMision = () => {
          
          <div className='mx-auto max-w-7xl  px-4 flex flex-col justify-center'>
                 <header>
-                    <h2 className='text-[#F7F7FA] font-semibold pb-12 text-3/5xl text-center'>Our Mission
+                    <h2 className='text-[#F7F7FA] font-semibold pb-12 text-3/5xl text-center'>Nuestra misión
 </h2>
                 </header>
 
                 <div className='text-white space-y-4'>
-                    <p >Founded on the belief that dental practices deserve better, MUCHO<strong>MARKETING</strong> aims to revolutionize the dental marketing industry. We provide personalized, high-quality services that help our clients achieve their goals and grow their practices. </p>
-                    <p>By combining Joel’s SEO expertise and Ailin’s web design prowess, we offer a holistic approach to online marketing that delivers real, tangible results.</p>
+                    <p >Fundada en la creencia de que todo negocio merece algo mejor, MUCHO<strong>MARKETING</strong> tiene como objetivo revolucionar la industria del marketing digital. Brindamos servicios personalizados y de alta calidad que ayudan a nuestros clientes a lograr sus objetivos y hacer crecer sus negocios. </p>
+                    <p>Al combinar la destreza en diseño web de Ailin y experiencia en SEO de Joel , ofrecemos un enfoque holístico del marketing online que ofrece resultados reales y tangibles.                    </p>
                 </div>
                 <Image src={juntos} alt='Team Mucho Marketing' className='py-8'/>
             </div>

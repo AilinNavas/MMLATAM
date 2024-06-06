@@ -6,7 +6,7 @@ const PainPointsService = ({painPoints}) => {
       <div className="text-white max-w-7xl mx-auto">
         <div className="">
           <h2 className="text-3/5xl text-center font-semibold mb-1">
-            Pain Points We Address
+          Puntos débiles que abordamos
           </h2>
 
           <div className="max-w-2xl mx-auto mt-14 grid grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-3">

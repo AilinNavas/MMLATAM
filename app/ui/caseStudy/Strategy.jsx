@@ -9,10 +9,11 @@ const Strategy = () => {
         <section className='-mb-1 py-20 px-4 lg:px-0 text-black'>
             <div className='lg:w-10/12 lg:m-auto'>
                 <header>
-                    <h3 className='text-3/5xl font-bold text-center lg:text-[48px]'>Strategy and Implementation</h3>
+                    <h3 className='text-3/5xl font-bold text-center lg:text-[48px]'>Estrategia e Implementación</h3>
                     <div className='text-lg lg:text-xl font-normal text-center w-full mt-5'>
-                        <p className='text-left'>To address these challenges, we developed and executed a comprehensive Local SEO strategy focused on improving their search rankings, online reputation, and overall digital presence. Our approach included:</p>
-                    </div>
+                        <p className='text-left'>Para hacer frente a estos retos, desarrollamos y ejecutamos una completa estrategia de SEO local centrada en mejorar su posicionamiento en las búsquedas, su reputación en línea y su presencia digital en general.</p>
+                        <p>Nuestro enfoque incluyó:</p>
+                   </div>
                 </header>
 
                 <div className=' mt-8 grid md:grid-cols-2 gap-10'>

@@ -8,7 +8,7 @@ import serviceDescriptionAll  from '../../ui/data/ServiceDescriptionAll'
 
 
 export default function SeoLocalPage() {
-  const service = serviceDescriptionAll.find(service => service.serviceName === "Local SEO");
+  const service = serviceDescriptionAll.find(service => service.serviceName === "SEO Local");
   return (
     <main >
      

@@ -46,7 +46,7 @@ const Data = () => {
         <div className='grid md:flex md:flex-wrap md:justify-center font-bold text-center gap-9 md:gap-0'>
           <div className='justify-center self-center flex flex-col text-center md:w-1/2 md:p-8 odd:border-none md:border-l-4 border-white lg:items-center'>
             <div className='whitespace-nowrap overflow-hidden text-ellipsis max-w-full text-6xl leading-[5.25rem] font-normal break-words lg:text-5xl lg:font-bold lg:leading-[4.375rem] 3xl:text-[5rem] 3xl:leading-[7.625rem]'>
-              +{count1}k
+              +{count1}%
             </div>
             <span className='text-sm font-bold leading-5 pt-4 text-center text-athensGray inline-block lg:font-normal lg:text-xl lg:leading-8 lg:h-16 lg:w-64'>
               <p>nuevos clientes convertidos.</p>

@@ -1,4 +1,4 @@
-import AboutUs from "./ui/home/AboutUs";
+// import AboutUs from "./ui/home/AboutUs";
 import ConctactUs from "./ui/home/ConctactUs";
 import Footer from "./ui/home/Footer";
 import Data from "./ui/home/Data";
@@ -14,7 +14,7 @@ export default function Home() {
       <NavbarMobile />
       <NavbarPc />
       <Hero />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <Services />
       <Data />
       <Testimonials />
