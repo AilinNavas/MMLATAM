@@ -2,14 +2,14 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
-const AccordionItem = ({ title, description }) => {
+const AccordionItem = ({ title, description , colorBorderService}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full text-left p-4 border-t-2 rounded-md border-violet-500 shadow-md focus:outline-none hover:text-violet-500"
+        className={`w-full text-left p-4 border-t-2 rounded-md ${colorBorderService} shadow-md focus:outline-none`}
       >
         <h3 className="text-lg font-semibold flex justify-between ">{title}
         <motion.svg

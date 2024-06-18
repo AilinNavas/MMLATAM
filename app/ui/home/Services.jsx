@@ -27,7 +27,7 @@ const Services = () => {
     <section id='our-services' className='-mb-1 bg-[#09090A] py-20 px-4 lg:px-0 text-[#FCFCFE]'>
       <div className='lg:w-10/12 lg:m-auto'>
         <header>
-          <h2 className='text-[#FCFCFE] text-3xl font-bold text-center lg:text-[48px]'>Descubrí cómo podemos acompañarte.</h2>
+          <h2 className='text-[#FCFCFE] text-3xl font-bold text-center lg:text-[48px]'>Descubre cómo podemos acompañarte.</h2>
           <div className='text-lg lg:text-2xl font-normal text-center w-full mt-5'>
             <p>Estrategias de marketing digital 100% personalizadas.</p>
           </div>

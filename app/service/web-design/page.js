@@ -13,7 +13,7 @@ export default function WebDesignPage() {
     <main >
      <HeroService nameService={service.serviceName} colorService={service.colorService} descriptiveTitle={service.descriptiveTitle} />
       <IntroductionService nameService={service.serviceName} serviceIntroduction={service.serviceIntroduction} />
-      <WhyService nameService={service.serviceName} summaryService={service.summaryService} serviceBenefits={service.serviceBenefits} />
+      <WhyService nameService={service.serviceName} summaryService={service.summaryService} serviceBenefits={service.serviceBenefits} colorTextService={service.colorTextService} urlImage ={service.urlImage} />
       <OfferServices introductionOffer={service.introductionOffer} tactics={service.tactics} />
       <PainPointsService painPoints={service.painPoints} />
       <StartToday goals={service.goals} startToday={service.startToday}/>

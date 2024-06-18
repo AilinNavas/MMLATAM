@@ -106,8 +106,9 @@ const Testimonials = () => {
                 </div>
                 <div className="xl:flex xl:items-center xl:justify-between">
                   <div className="font-medium text-lg leading-6 space-y-1">
-                    <h3 className={` ${roboto.className} text-white text-xl pb-2`}>Neal Horn</h3>
+                    <h3 className={` ${roboto.className} text-white text-xl `}>Dr. Neal Horn, DDS, MS</h3>
                     <h4 className={` ${roboto.className} text-[#0a66c2]`}>Southside Endodontics</h4>
+                    <span className='text-xs text-white'>Fort Worth, Texas - EUA</span>
                     <div className="text-sm pt-5 text-white font-archivo">
                       <p className={`${roboto.className}`}>
                         “Joel ha sido un activo valioso para mi práctica de endodoncia. Sus habilidades con SEO han posicionado constantemente mi práctica en la parte superior de los resultados de búsqueda. Él siempre tiene ideas únicas y creativas sobre cómo comercializar más eficazmente mi práctica, y hemos visto resultados mediante la aplicación de sus estrategias. No dudaría en recomendar a Joel a cualquiera que busque posicionar mejor su consulta a través del marketing digital.”

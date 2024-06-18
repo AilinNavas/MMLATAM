@@ -13,7 +13,7 @@ export default function EmailMarketingPage() {
     <main >
      
       <HeroService nameService={service.serviceName} colorService={service.colorService} descriptiveTitle={service.descriptiveTitle} />
-      <IntroductionService nameService={service.serviceName} serviceIntroduction={service.serviceIntroduction} />
+      <IntroductionService nameService={service.serviceName} serviceIntroduction={service.serviceIntroduction} colorTextService={service.colorTextService} urlImage ={service.urlImage} />
       <WhyService nameService={service.serviceName} summaryService={service.summaryService} serviceBenefits={service.serviceBenefits} />
       <OfferServices introductionOffer={service.introductionOffer} tactics={service.tactics} />
       <PainPointsService painPoints={service.painPoints} />

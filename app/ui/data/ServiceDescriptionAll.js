@@ -1,8 +1,17 @@
+import seoLocal from '@/public/image-services/seolocal.png';
+import branding from '@/public/image-services/branding.png';
+import webdesign from '@/public/image-services/website.png';
+import emailmarketing from '@/public/image-services/emailmarketing.png';
+
+
+
 const serviceDescriptionAll = [
     {
         serviceName: "Email Marketing",
         colorService: "bg-[#2B0CEA]",
+        colorTextService: "text-[#2B0CEA]",
         descriptiveTitle: "Transforma tu Empresa con Estrategias de Email Marketing Probadas",
+        urlImage : emailmarketing ,
         serviceIntroduction: [
             "¿Tu empresa está luchando para llenar su agenda? ¿Te resulta difícil atraer y retener clientes, especialmente referidos de otros profesionales?",
             "En MUCHO MARKETING, nos especializamos en ofrecer servicios de email marketing dirigidos específicamente a empresas, asegurando que te mantengas a la vanguardia en un mercado competitivo."
@@ -17,19 +26,23 @@ const serviceDescriptionAll = [
         tactics: [
             {
                 title: "Campañas de Email Personalizadas",
-                description: "Nuestros servicios de email marketing incluyen campañas de correo personalizadas adaptadas a tus necesidades específicas. Ya sea para promover un nuevo servicio, enviar recordatorios o compartir contenido educativo, creamos correos electrónicos que resuenan con tu audiencia."
+                description: "Nuestros servicios de email marketing incluyen campañas de correo personalizadas adaptadas a tus necesidades específicas. Ya sea para promover un nuevo servicio, enviar recordatorios o compartir contenido educativo, creamos correos electrónicos que resuenan con tu audiencia.",
+                colorBorderService: "border-[#2B0CEA]",
             },
             {
                 title: "Desarrollo de Referencias",
-                description: "Para especialistas, nos enfocamos en desarrollar y fortalecer relaciones de referencia. Nuestras campañas destacan tu experiencia y casos de éxito, facilitando que otros profesionales te recomienden con confianza."
+                description: "Para especialistas, nos enfocamos en desarrollar y fortalecer relaciones de referencia. Nuestras campañas destacan tu experiencia y casos de éxito, facilitando que otros profesionales te recomienden con confianza.",
+                colorBorderService: "border-[#2B0CEA]",
             },
             {
                 title: "Estrategias de Retención de Clientes",
-                description: "Te ayudamos a mantenerte conectado con tus clientes a través de boletines regulares, correos de seguimiento y promociones especiales. Mantener tu empresa en la mente de tus clientes asegura que regresen y elijan tus servicios para nuevas necesidades."
+                description: "Te ayudamos a mantenerte conectado con tus clientes a través de boletines regulares, correos de seguimiento y promociones especiales. Mantener tu empresa en la mente de tus clientes asegura que regresen y elijan tus servicios para nuevas necesidades.",
+                colorBorderService: "border-[#2B0CEA]",
             },
             {
                 title: "Analíticas de Desempeño",
-                description: "Rastrea el éxito de tus campañas de email con analíticas detalladas. Proporcionamos información sobre tasas de apertura, clics y conversiones, permitiéndote ver el impacto real en el crecimiento de tu empresa."
+                description: "Rastrea el éxito de tus campañas de email con analíticas detalladas. Proporcionamos información sobre tasas de apertura, clics y conversiones, permitiéndote ver el impacto real en el crecimiento de tu empresa.",
+                colorBorderService: "border-[#2B0CEA]",
             },
         ],
         painPoints: [
@@ -52,6 +65,8 @@ const serviceDescriptionAll = [
     {
         serviceName: "Diseño Web",
         colorService: "bg-[#C30BB1]",
+        colorTextService: "text-[#C30BB1]",
+        urlImage : webdesign,
         descriptiveTitle: "Eleva Tu Empresa con un Diseño Web Excepcional",
         serviceIntroduction: [
             "En la era digital actual, tu sitio web es a menudo la primera impresión que los potenciales clientes tienen de tu empresa. ¿Tu sitio web está ayudando a atraer nuevos clientes y retener a los existentes, o los está alejando?",
@@ -67,23 +82,28 @@ const serviceDescriptionAll = [
         tactics: [
             {
                 title: "Diseño Web Personalizado",
-                description: "No creemos en soluciones únicas para todos. Nuestro equipo trabaja estrechamente contigo para crear un sitio web personalizado que refleje tu marca y satisfaga tus necesidades específicas. Desde diseños minimalistas y elegantes hasta disposiciones vibrantes y atractivas, creamos sitios web que destacan."
+                description: "No creemos en soluciones únicas para todos. Nuestro equipo trabaja estrechamente contigo para crear un sitio web personalizado que refleje tu marca y satisfaga tus necesidades específicas. Desde diseños minimalistas y elegantes hasta disposiciones vibrantes y atractivas, creamos sitios web que destacan.",
+                colorBorderService: "border-[#C30BB1]",
             },
             {
                 title: "Optimización Móvil",
-                description: "Cada sitio web que construimos está totalmente optimizado para dispositivos móviles, asegurando una experiencia impecable para los clientes que acceden a tu sitio desde smartphones o tablets. Esto no solo mejora la experiencia del usuario, sino que también mejora tu clasificación en los motores de búsqueda."
+                description: "Cada sitio web que construimos está totalmente optimizado para dispositivos móviles, asegurando una experiencia impecable para los clientes que acceden a tu sitio desde smartphones o tablets. Esto no solo mejora la experiencia del usuario, sino que también mejora tu clasificación en los motores de búsqueda.",
+                colorBorderService: "border-[#C30BB1]",
             },
             {
                 title: "Integración de SEO",
-                description: "Nuestros servicios de diseño web incluyen estrategias de SEO integrales para mejorar tu visibilidad en línea. Utilizamos las últimas técnicas de SEO para asegurar que tu sitio web aparezca alto en los resultados de búsqueda, dirigiendo más tráfico a tu empresa."
+                description: "Nuestros servicios de diseño web incluyen estrategias de SEO integrales para mejorar tu visibilidad en línea. Utilizamos las últimas técnicas de SEO para asegurar que tu sitio web aparezca alto en los resultados de búsqueda, dirigiendo más tráfico a tu empresa.",
+                colorBorderService: "border-[#C30BB1]",
             },
             {
                 title: "Integración de Portal de Clientes",
-                description: "Podemos integrar portales de clientes, facilitando que tus clientes reserven citas, llenen formularios y accedan a sus registros en línea. Esto mejora la conveniencia y eficiencia de tu empresa."
+                description: "Podemos integrar portales de clientes, facilitando que tus clientes reserven citas, llenen formularios y accedan a sus registros en línea. Esto mejora la conveniencia y eficiencia de tu empresa.",
+                colorBorderService: "border-[#C30BB1]",
             },
             {
                 title: "Soporte y Mantenimiento Continuo",
-                description: "Nuestro compromiso con tu empresa no termina una vez que tu sitio web está en vivo. Ofrecemos soporte y mantenimiento continuo para asegurar que tu sitio web permanezca actualizado, seguro y efectivo."
+                description: "Nuestro compromiso con tu empresa no termina una vez que tu sitio web está en vivo. Ofrecemos soporte y mantenimiento continuo para asegurar que tu sitio web permanezca actualizado, seguro y efectivo.",
+                colorBorderService: "border-[#C30BB1]",
             },
         ],
         painPoints: [
@@ -106,6 +126,8 @@ const serviceDescriptionAll = [
     {
         serviceName: "SEO Local",
         colorService: "bg-lime-500",
+        colorTextService: "text-lime-500",
+        urlImage : seoLocal,
         descriptiveTitle: "Domina los Resultados de Búsqueda Local con SEO Local Experto",
         serviceIntroduction: [
             "¿Están los potenciales clientes encontrando tu empresa en línea o están eligiendo a tus competidores? En el panorama digital actual, ser visible en los resultados de búsqueda locales es crucial para atraer nuevos clientes.",
@@ -120,35 +142,43 @@ const serviceDescriptionAll = [
         tactics: [
             {
                 title: "Auditoría Integral de SEO Local",
-                description: "Nuestros servicios de SEO Local comienzan con una auditoría exhaustiva de tu presencia en línea actual. Identificamos fortalezas, debilidades y oportunidades, proporcionando un claro plan de acción para mejorar tus clasificaciones de búsqueda locales."
+                description: "Nuestros servicios de SEO Local comienzan con una auditoría exhaustiva de tu presencia en línea actual. Identificamos fortalezas, debilidades y oportunidades, proporcionando un claro plan de acción para mejorar tus clasificaciones de búsqueda locales.",
+                colorBorderService: "border-lime-500",
             },
             {
                 title: "Optimización en la Página",
-                description: "Optimizamos el contenido de tu sitio web, etiquetas meta, encabezados y estructura de enlace interno para asegurar que sea amigable para los motores de búsqueda. Esto incluye la incorporación de palabras clave relevantes que los potenciales clientes están utilizando para buscar servicios en tu área."
+                description: "Optimizamos el contenido de tu sitio web, etiquetas meta, encabezados y estructura de enlace interno para asegurar que sea amigable para los motores de búsqueda. Esto incluye la incorporación de palabras clave relevantes que los potenciales clientes están utilizando para buscar servicios en tu área.",
+                colorBorderService: "border-lime-500",
             },
             {
                 title: "Optimización de Google My Business",
-                description: "Tu perfil de Google My Business (GMB) es fundamental para la visibilidad en búsqueda local. Optimizamos tu perfil GMB con información precisa, imágenes de alta calidad y contenido atractivo para asegurar que se destaque."
+                description: "Tu perfil de Google My Business (GMB) es fundamental para la visibilidad en búsqueda local. Optimizamos tu perfil GMB con información precisa, imágenes de alta calidad y contenido atractivo para asegurar que se destaque.",
+                colorBorderService: "border-lime-500",
             },
             {
                 title: "Citas Locales y Listados en Directorios",
-                description: "La consistencia es clave en el SEO Local. Nos aseguramos de que tu empresa esté listada de manera precisa y consistente en todos los principales directorios en línea, incluidos Yelp, Healthgrades y directorios de empresas locales. Esto mejora tus clasificaciones de búsqueda y asegura que los clientes puedan encontrar fácilmente tu empresa."
+                description: "La consistencia es clave en el SEO Local. Nos aseguramos de que tu empresa esté listada de manera precisa y consistente en todos los principales directorios en línea, incluidos Yelp, Healthgrades y directorios de empresas locales. Esto mejora tus clasificaciones de búsqueda y asegura que los clientes puedan encontrar fácilmente tu empresa.",
+                colorBorderService: "border-lime-500",
             },
             {
                 title: "Gestión de la Reputación",
-                description: "Las opiniones en línea juegan un papel importante en el SEO Local. Te ayudamos a administrar y mejorar tus opiniones en línea, alentando a los clientes satisfechos a dejar comentarios positivos y abordando cualquier comentario negativo de manera rápida y profesional."
+                description: "Las opiniones en línea juegan un papel importante en el SEO Local. Te ayudamos a administrar y mejorar tus opiniones en línea, alentando a los clientes satisfechos a dejar comentarios positivos y abordando cualquier comentario negativo de manera rápida y profesional.",
+                colorBorderService: "border-lime-500",
             },
             {
                 title: "Creación de Contenido y Blogging",
-                description: "El contenido regular y relevante es esencial para el SEO. Nuestro equipo crea publicaciones de blog, artículos y otro contenido que resuene con tu audiencia y aumente tus clasificaciones de búsqueda."
+                description: "El contenido regular y relevante es esencial para el SEO. Nuestro equipo crea publicaciones de blog, artículos y otro contenido que resuene con tu audiencia y aumente tus clasificaciones de búsqueda.",
+                colorBorderService: "border-lime-500",
             },
             {
                 title: "Construcción de Enlaces Locales",
-                description: "Construimos enlaces de alta calidad desde sitios web locales de confianza, mejorando la autoridad de tu sitio y aumentando tus clasificaciones de búsqueda."
+                description: "Construimos enlaces de alta calidad desde sitios web locales de confianza, mejorando la autoridad de tu sitio y aumentando tus clasificaciones de búsqueda.",
+                colorBorderService: "border-lime-500",
             },
             {
                 title: "Seguimiento y Reporte de Desempeño",
-                description: "Proporcionamos informes detallados sobre tu desempeño de SEO Local, incluidas las clasificaciones de búsqueda, el tráfico del sitio web y las tasas de conversión. Nuestro informe transparente garantiza que veas el impacto real de nuestros esfuerzos."
+                description: "Proporcionamos informes detallados sobre tu desempeño de SEO Local, incluidas las clasificaciones de búsqueda, el tráfico del sitio web y las tasas de conversión. Nuestro informe transparente garantiza que veas el impacto real de nuestros esfuerzos.",
+                colorBorderService: "border-lime-500",
             },
         ],
         painPoints: [
@@ -171,6 +201,8 @@ const serviceDescriptionAll = [
     {
         serviceName: "Branding",
         colorService: "bg-orange-500",
+        colorTextService: "text-orange-500",
+        urlImage : branding,
         descriptiveTitle: "Eleva Tu Empresa con Servicios de Branding Expertos",
         serviceIntroduction: [
             "En la industria empresarial altamente competitiva, tu marca es tu identidad. Es cómo los clientes te reconocen y recuerdan. ¿Tu empresa se destaca de la competencia o se confunde con el fondo?",
@@ -186,31 +218,38 @@ const serviceDescriptionAll = [
         tactics: [
             {
                 title: "Desarrollo de Estrategia de Marca",
-                description: "Nuestro proceso de branding comienza con una profunda exploración de la misión, los valores y los objetivos de tu empresa. Desarrollamos una estrategia de marca integral que se alinee con tu visión y resuene con tu audiencia objetivo."
+                description: "Nuestro proceso de branding comienza con una profunda exploración de la misión, los valores y los objetivos de tu empresa. Desarrollamos una estrategia de marca integral que se alinee con tu visión y resuene con tu audiencia objetivo.",
+                colorBorderService: "border-orange-500",
             },
             {
                 title: "Diseño de Logo e Identidad Visual",
-                description: "Una identidad visual sólida es esencial para el reconocimiento de la marca. Diseñamos logotipos, esquemas de color, tipografía y otros elementos visuales que reflejan la personalidad de tu empresa y atraen a tus clientes."
+                description: "Una identidad visual sólida es esencial para el reconocimiento de la marca. Diseñamos logotipos, esquemas de color, tipografía y otros elementos visuales que reflejan la personalidad de tu empresa y atraen a tus clientes.",
+                colorBorderService: "border-orange-500",
             },
             {
                 title: "Mensajes de Marca y Narración de Historias",
-                description: "Un branding efectivo cuenta una historia. Creamos mensajes e historias de marca convincentes que transmiten los valores, la experiencia y los puntos de venta únicos de tu empresa, creando una conexión emocional con tus clientes."
+                description: "Un branding efectivo cuenta una historia. Creamos mensajes e historias de marca convincentes que transmiten los valores, la experiencia y los puntos de venta únicos de tu empresa, creando una conexión emocional con tus clientes.",
+                colorBorderService: "border-orange-500",
             },
             {
                 title: "Materiales de Marketing e Impresos",
-                description: "Desde tarjetas de presentación hasta folletos y letreros en la oficina, nos aseguramos de que todos tus materiales impresos se alineen con la identidad de tu marca, creando una imagen consistente y profesional."
+                description: "Desde tarjetas de presentación hasta folletos y letreros en la oficina, nos aseguramos de que todos tus materiales impresos se alineen con la identidad de tu marca, creando una imagen consistente y profesional.",
+                colorBorderService: "border-orange-500",
             },
             {
                 title: "Branding en Redes Sociales",
-                description: "Creamos perfiles de redes sociales coherentes que reflejen la personalidad de tu marca y atraigan a tu audiencia."
+                description: "Creamos perfiles de redes sociales coherentes que reflejen la personalidad de tu marca y atraigan a tu audiencia.",
+                colorBorderService: "border-orange-500",
             },
             {
                 title: "Gestión y Evolución de la Marca",
-                description: "Las marcas deben evolucionar para mantenerse relevantes. Ofrecemos servicios continuos de gestión de marca, asegurando que tu marca crezca y se adapte con tu empresa. Nuestro equipo monitorea continuamente el desempeño de la marca y realiza ajustes según sea necesario."
+                description: "Las marcas deben evolucionar para mantenerse relevantes. Ofrecemos servicios continuos de gestión de marca, asegurando que tu marca crezca y se adapte con tu empresa. Nuestro equipo monitorea continuamente el desempeño de la marca y realiza ajustes según sea necesario.",
+                colorBorderService: "border-orange-500",
             },
             {
                 title: "Sitio Web y Presencia Digital",
-                description: "Tu sitio web es a menudo el primer punto de contacto para los clientes potenciales. Diseñamos y desarrollamos sitios web que reflejen la identidad de tu marca, asegurando una experiencia en línea fluida y atractiva."
+                description: "Tu sitio web es a menudo el primer punto de contacto para los clientes potenciales. Diseñamos y desarrollamos sitios web que reflejen la identidad de tu marca, asegurando una experiencia en línea fluida y atractiva.",
+                colorBorderService: "border-orange-500",
             },],
         painPoints: [
             {
