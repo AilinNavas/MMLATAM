@@ -7,6 +7,7 @@ import NavbarPc from "./ui/general/NavbarPc";
 import Services from "./ui/home/Services";
 import Testimonials from "./ui/home/Testimonials";
 import NavbarMobile from "./ui/general/NavbarMobile";
+import Tecnologies from "./ui/home/Tecnologies";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       {/* <AboutUs /> */}
       <Services />
+      <Tecnologies />
       <Data />
       <Testimonials />
       <ConctactUs />

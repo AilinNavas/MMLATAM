@@ -10,12 +10,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+
       keyframes: {
         infinite_scroll: {
-          "100%" : { transform: "translate(calc(-50% - 0.25rem))"}
-        }
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-50% - 0.25rem))' },
+        },
       },
-      animation: { infinite_scroll: "infinite_scroll 20s linear infinite"},
+      animation: {
+        infinite_scroll: 'infinite_scroll 20s linear infinite',
+      },
+      // keyframes: {
+      //   infinite_scroll: {
+      //     "100%" : { transform: "translate(calc(-50% - 0.25rem))"}
+      //   }
+      // },
+      // animation: { infinite_scroll: "infinite_scroll 20s linear infinite"},
       screens: {
        
         'sm': '320px',

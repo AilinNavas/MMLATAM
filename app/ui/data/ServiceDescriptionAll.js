@@ -1,7 +1,7 @@
 import seoLocal from '@/public/image-services/seolocal.png';
 import branding from '@/public/image-services/branding.png';
 import webdesign from '@/public/image-services/website.png';
-import emailmarketing from '@/public/image-services/emailmarketing.png';
+import emailmarketing from '@/public/image-services/email.png';
 
 
 
@@ -10,7 +10,7 @@ const serviceDescriptionAll = [
         serviceName: "Email Marketing",
         colorService: "bg-[#2B0CEA]",
         colorTextService: "text-[#2B0CEA]",
-        descriptiveTitle: "Transforma tu Empresa con Estrategias de Email Marketing Probadas",
+        descriptiveTitle: "Transforma tu empresa con estrategias de email marketing probadas",
         urlImage : emailmarketing ,
         serviceIntroduction: [
             "¿Tu empresa está luchando para llenar su agenda? ¿Te resulta difícil atraer y retener clientes, especialmente referidos de otros profesionales?",
@@ -25,22 +25,22 @@ const serviceDescriptionAll = [
         introductionOffer: "Transforma tu empresa con el poder del email marketing.",
         tactics: [
             {
-                title: "Campañas de Email Personalizadas",
+                title: "Campañas de email personalizadas",
                 description: "Nuestros servicios de email marketing incluyen campañas de correo personalizadas adaptadas a tus necesidades específicas. Ya sea para promover un nuevo servicio, enviar recordatorios o compartir contenido educativo, creamos correos electrónicos que resuenan con tu audiencia.",
                 colorBorderService: "border-[#2B0CEA]",
             },
             {
-                title: "Desarrollo de Referencias",
+                title: "Desarrollo de referencias",
                 description: "Para especialistas, nos enfocamos en desarrollar y fortalecer relaciones de referencia. Nuestras campañas destacan tu experiencia y casos de éxito, facilitando que otros profesionales te recomienden con confianza.",
                 colorBorderService: "border-[#2B0CEA]",
             },
             {
-                title: "Estrategias de Retención de Clientes",
+                title: "Estrategias de retención de clientes",
                 description: "Te ayudamos a mantenerte conectado con tus clientes a través de boletines regulares, correos de seguimiento y promociones especiales. Mantener tu empresa en la mente de tus clientes asegura que regresen y elijan tus servicios para nuevas necesidades.",
                 colorBorderService: "border-[#2B0CEA]",
             },
             {
-                title: "Analíticas de Desempeño",
+                title: "Analíticas de desempeño",
                 description: "Rastrea el éxito de tus campañas de email con analíticas detalladas. Proporcionamos información sobre tasas de apertura, clics y conversiones, permitiéndote ver el impacto real en el crecimiento de tu empresa.",
                 colorBorderService: "border-[#2B0CEA]",
             },
@@ -67,21 +67,21 @@ const serviceDescriptionAll = [
         colorService: "bg-[#C30BB1]",
         colorTextService: "text-[#C30BB1]",
         urlImage : webdesign,
-        descriptiveTitle: "Eleva Tu Empresa con un Diseño Web Excepcional",
+        descriptiveTitle: "Eleva tu empresa con un diseño web excepcional",
         serviceIntroduction: [
             "En la era digital actual, tu sitio web es a menudo la primera impresión que los potenciales clientes tienen de tu empresa. ¿Tu sitio web está ayudando a atraer nuevos clientes y retener a los existentes, o los está alejando?",
             "En MUCHO MARKETING, nos especializamos en crear sitios web impresionantes y fáciles de usar para todo tipo de empresas, asegurando que dejes una impresión duradera."
         ],
         summaryService: "Un sitio web profesionalmente diseñado es crucial para el éxito de tu empresa. No se trata solo de estética; se trata de funcionalidad, experiencia del usuario y confianza. Nuestro equipo experto entiende las necesidades únicas de las empresas y entrega sitios web que convierten visitantes en clientes leales.",
         serviceBenefits: [
-            "Atracción de Nuevos Clientes: Un sitio web bien diseñado puede aumentar significativamente tu visibilidad en línea y atraer a más clientes potenciales.",
-            "Mejora de la Experiencia del Cliente: Navegación fácil, información clara y contenido atractivo facilitan que los clientes encuentren lo que necesitan y reserven servicios.",
-            "Construcción de Confianza: Un sitio web profesional y moderno inspira confianza en tus clientes, mostrando tu experiencia y dedicación a la calidad."
+            "Atracción de nuevos clientes: Un sitio web bien diseñado puede aumentar significativamente tu visibilidad en línea y atraer a más clientes potenciales.",
+            "Mejora de la experiencia del cliente: Navegación fácil, información clara y contenido atractivo facilitan que los clientes encuentren lo que necesitan y reserven servicios.",
+            "Construcción de confianza: Un sitio web profesional y moderno inspira confianza en tus clientes, mostrando tu experiencia y dedicación a la calidad."
         ],
         introductionOffer: "Eleva tu empresa con un sitio web que atrae y convierte.",
         tactics: [
             {
-                title: "Diseño Web Personalizado",
+                title: "Diseño web personalizado",
                 description: "No creemos en soluciones únicas para todos. Nuestro equipo trabaja estrechamente contigo para crear un sitio web personalizado que refleje tu marca y satisfaga tus necesidades específicas. Desde diseños minimalistas y elegantes hasta disposiciones vibrantes y atractivas, creamos sitios web que destacan.",
                 colorBorderService: "border-[#C30BB1]",
             },
@@ -96,27 +96,22 @@ const serviceDescriptionAll = [
                 colorBorderService: "border-[#C30BB1]",
             },
             {
-                title: "Integración de Portal de Clientes",
-                description: "Podemos integrar portales de clientes, facilitando que tus clientes reserven citas, llenen formularios y accedan a sus registros en línea. Esto mejora la conveniencia y eficiencia de tu empresa.",
-                colorBorderService: "border-[#C30BB1]",
-            },
-            {
-                title: "Soporte y Mantenimiento Continuo",
+                title: "Soporte y mantenimiento continuo",
                 description: "Nuestro compromiso con tu empresa no termina una vez que tu sitio web está en vivo. Ofrecemos soporte y mantenimiento continuo para asegurar que tu sitio web permanezca actualizado, seguro y efectivo.",
                 colorBorderService: "border-[#C30BB1]",
             },
         ],
         painPoints: [
             {
-                title: "Diseño Desactualizado y Falta de Optimización Móvil:",
+                title: "Diseño desactualizado y falta de optimización móvil:",
                 description: "Un sitio web antiguo o poco atractivo puede alejar a los potenciales clientes, y con más personas accediendo a sitios web en sus teléfonos, un diseño optimizado para móviles es esencial. Creamos sitios web modernos y visualmente atractivos que reflejan la calidad de tu empresa y funcionan perfectamente en todos los dispositivos."
             },
             {
-                title: "Mala Experiencia del Usuario:",
+                title: "Mala experiencia del usuario:",
                 description: "La navegación complicada y los tiempos de carga lentos frustran a los visitantes. Nuestros sitios web están diseñados para experiencias de usuario sin problemas, asegurando que los clientes encuentren la información que necesitan rápida y fácilmente."
             },
             {
-                title: "Baja Visibilidad en los Motores de Búsqueda:",
+                title: "Baja visibilidad en los motores de búsqueda:",
                 description: "Un sitio web hermoso es inútil si no se puede encontrar. Incorporamos las mejores prácticas de SEO para ayudar a tu sitio web a clasificarse más alto en los motores de búsqueda, llevando más tráfico a tu empresa."
             },
         ],
@@ -128,70 +123,70 @@ const serviceDescriptionAll = [
         colorService: "bg-lime-500",
         colorTextService: "text-lime-500",
         urlImage : seoLocal,
-        descriptiveTitle: "Domina los Resultados de Búsqueda Local con SEO Local Experto",
+        descriptiveTitle: "Domina los resultados de búsqueda en Google con SEO Local",
         serviceIntroduction: [
             "¿Están los potenciales clientes encontrando tu empresa en línea o están eligiendo a tus competidores? En el panorama digital actual, ser visible en los resultados de búsqueda locales es crucial para atraer nuevos clientes.",
             "En MUCHO MARKETING, nos especializamos en servicios de SEO Local adaptados específicamente para empresas, asegurando que tu empresa se posicione en la cima cuando más importa."
-        ], summaryService: "El SEO Local es la clave para asegurar que tu empresa aparezca en los resultados de búsqueda cuando potenciales clientes en tu área están buscando tus servicios.Con las estrategias adecuadas, el SEO Local puede aumentar el tráfico a tu sitio web, incrementar las reservas de citas y hacer crecer tu base de clientes.",
+        ], summaryService: "El SEO Local es la clave para asegurar que tu empresa aparezca en los resultados de búsqueda cuando potenciales clientes en tu área están buscando tus servicios. Con las estrategias adecuadas, el SEO Local puede aumentar el tráfico a tu sitio web, incrementar las reservas de citas y hacer crecer tu base de clientes.",
         serviceBenefits: [
             "Mayor Visibilidad Local: Mejora la presencia de tu empresa en los resultados de búsqueda locales, facilitando que potenciales clientes en tu área te encuentren.",
-            "Más Tráfico Web: Atrae más tráfico dirigido a tu sitio web, lo que resulta en más reservas de citas y adquisición de nuevos clientes.",
+            "Más Tráfico Web: Atrae más tráfico dirigido a tu sitio web, lo que resulta en más consultas, llamadas, formularios enviados y adquisición de nuevos clientes.",
             "Mejora de la Reputación Online: Impulsa la credibilidad y confiabilidad de tu empresa a través de comentarios en línea positivos e información comercial precisa y consistente en la web."
         ],
         introductionOffer: "No permitas que tu empresa se pierda en la multitud",
         tactics: [
             {
-                title: "Auditoría Integral de SEO Local",
+                title: "Auditoría integral de SEO local",
                 description: "Nuestros servicios de SEO Local comienzan con una auditoría exhaustiva de tu presencia en línea actual. Identificamos fortalezas, debilidades y oportunidades, proporcionando un claro plan de acción para mejorar tus clasificaciones de búsqueda locales.",
                 colorBorderService: "border-lime-500",
             },
             {
-                title: "Optimización en la Página",
+                title: "Optimización en la página",
                 description: "Optimizamos el contenido de tu sitio web, etiquetas meta, encabezados y estructura de enlace interno para asegurar que sea amigable para los motores de búsqueda. Esto incluye la incorporación de palabras clave relevantes que los potenciales clientes están utilizando para buscar servicios en tu área.",
                 colorBorderService: "border-lime-500",
             },
             {
-                title: "Optimización de Google My Business",
-                description: "Tu perfil de Google My Business (GMB) es fundamental para la visibilidad en búsqueda local. Optimizamos tu perfil GMB con información precisa, imágenes de alta calidad y contenido atractivo para asegurar que se destaque.",
+                title: "Optimización de Google My Profile",
+                description: "Tu perfil de Google My Profile (GMB) es fundamental para la visibilidad en búsqueda local. Optimizamos tu perfil GMB con información precisa, imágenes de alta calidad y contenido atractivo para asegurar que se destaque.",
                 colorBorderService: "border-lime-500",
             },
             {
-                title: "Citas Locales y Listados en Directorios",
+                title: "Citas locales y listados en directorios",
                 description: "La consistencia es clave en el SEO Local. Nos aseguramos de que tu empresa esté listada de manera precisa y consistente en todos los principales directorios en línea, incluidos Yelp, Healthgrades y directorios de empresas locales. Esto mejora tus clasificaciones de búsqueda y asegura que los clientes puedan encontrar fácilmente tu empresa.",
                 colorBorderService: "border-lime-500",
             },
             {
-                title: "Gestión de la Reputación",
+                title: "Gestión de la reputación",
                 description: "Las opiniones en línea juegan un papel importante en el SEO Local. Te ayudamos a administrar y mejorar tus opiniones en línea, alentando a los clientes satisfechos a dejar comentarios positivos y abordando cualquier comentario negativo de manera rápida y profesional.",
                 colorBorderService: "border-lime-500",
             },
             {
-                title: "Creación de Contenido y Blogging",
+                title: "Creación de contenido y blogging",
                 description: "El contenido regular y relevante es esencial para el SEO. Nuestro equipo crea publicaciones de blog, artículos y otro contenido que resuene con tu audiencia y aumente tus clasificaciones de búsqueda.",
                 colorBorderService: "border-lime-500",
             },
             {
-                title: "Construcción de Enlaces Locales",
+                title: "Construcción de enlaces locales",
                 description: "Construimos enlaces de alta calidad desde sitios web locales de confianza, mejorando la autoridad de tu sitio y aumentando tus clasificaciones de búsqueda.",
                 colorBorderService: "border-lime-500",
             },
             {
-                title: "Seguimiento y Reporte de Desempeño",
+                title: "Seguimiento y reporte de desempeño",
                 description: "Proporcionamos informes detallados sobre tu desempeño de SEO Local, incluidas las clasificaciones de búsqueda, el tráfico del sitio web y las tasas de conversión. Nuestro informe transparente garantiza que veas el impacto real de nuestros esfuerzos.",
                 colorBorderService: "border-lime-500",
             },
         ],
         painPoints: [
             {
-                title: "Baja Visibilidad en Línea y Tráfico Web Bajo: ",
+                title: "Baja visibilidad en línea y tráfico web bajo: ",
                 description: "Muchas empresas luchan por aparecer en los resultados de búsqueda locales y sufren de bajo tráfico web, perdiendo clientes potenciales ante la competencia. Nuestras estrategias de SEO Local garantizan que tu empresa se clasifique alta, dirigiendo tráfico dirigido a tu sitio y aumentando la adquisición de clientes."
             },
             {
-                title: "Información Inconsistente:",
+                title: "Información inconsistente:",
                 description: "La información comercial inexacta o inconsistente en los directorios en línea puede dañar tus clasificaciones de búsqueda y confundir a los clientes potenciales. Audita y corrige tus listados comerciales para garantizar la consistencia, mejorando la visibilidad y credibilidad de tu empresa."
             },
             {
-                title: "Opiniones Negativas:",
+                title: "Opiniones negativas:",
                 description: "Las malas críticas pueden dañar tu reputación en línea y disuadir a los clientes potenciales. Te ayudamos a administrar y mejorar tus críticas en línea, construyendo confianza y credibilidad con tu audiencia, mejorando en última instancia la reputación de tu empresa."
             },
         ],
@@ -203,65 +198,65 @@ const serviceDescriptionAll = [
         colorService: "bg-orange-500",
         colorTextService: "text-orange-500",
         urlImage : branding,
-        descriptiveTitle: "Eleva Tu Empresa con Servicios de Branding Expertos",
+        descriptiveTitle: "Estrategia de marca",
         serviceIntroduction: [
-            "En la industria empresarial altamente competitiva, tu marca es tu identidad. Es cómo los clientes te reconocen y recuerdan. ¿Tu empresa se destaca de la competencia o se confunde con el fondo?",
+            "En la industria empresarial altamente competitiva, tu marca es tu identidad. Es cómo los clientes te reconocen y recuerdan. ¿Tu empresa se destaca de la competencia o se confunde con el resto?",
             "En MUCHO MARKETING, nos especializamos en crear marcas convincentes y memorables para empresas, asegurando que dejes una impresión duradera."
         ],
         summaryService: "El branding efectivo es más que solo un logo o un eslogan; se trata de crear una identidad coherente y convincente que resuene con tu audiencia objetivo. Una marca sólida genera confianza, aumenta la lealtad del cliente y te diferencia de la competencia. Nuestros servicios de branding están diseñados para ayudar a tu empresa a establecer una presencia poderosa y distintiva en el mercado.",
         serviceBenefits: [
-            "Aumenta la Lealtad y Confianza del Cliente: Una marca única y memorable garantiza que tu empresa se destaque, fomentando una mayor lealtad del cliente y construyendo confianza con los clientes.",
-            "Mejora la Imagen Profesional y la Ventaja Competitiva: Una identidad de marca cohesiva en todas las plataformas refuerza la profesionalidad de tu empresa y destaca lo que hace que tu empresa sea única en un mercado lleno de competidores.",
-            "Asegura un Mensaje y Experiencia del Cliente Consistentes: Un branding unificado, desde tu sitio web hasta las redes sociales y los materiales en la oficina, garantiza una comunicación clara y consistente, mejorando la experiencia general del cliente."
+            "Aumenta la lealtad y confianza del cliente: Una marca única y memorable garantiza que tu empresa se destaque, fomentando una mayor lealtad del cliente y construyendo confianza con los clientes.",
+            "Mejora la imagen profesional y la ventaja competitiva: Una identidad de marca cohesiva en todas las plataformas refuerza la profesionalidad de tu empresa y destaca lo que hace que tu empresa sea única en un mercado lleno de competidores.",
+            "Asegura un mensaje y experiencia del cliente consistentes: Un branding unificado, desde tu sitio web hasta las redes sociales y los materiales en la oficina, garantiza una comunicación clara y consistente, mejorando la experiencia general del cliente."
         ],
         introductionOffer: "Transforma tu empresa con una marca poderosa y memorable.",
         tactics: [
             {
-                title: "Desarrollo de Estrategia de Marca",
+                title: "Desarrollo de estrategia de marca",
                 description: "Nuestro proceso de branding comienza con una profunda exploración de la misión, los valores y los objetivos de tu empresa. Desarrollamos una estrategia de marca integral que se alinee con tu visión y resuene con tu audiencia objetivo.",
                 colorBorderService: "border-orange-500",
             },
             {
-                title: "Diseño de Logo e Identidad Visual",
+                title: "Diseño de logo e identidad visual",
                 description: "Una identidad visual sólida es esencial para el reconocimiento de la marca. Diseñamos logotipos, esquemas de color, tipografía y otros elementos visuales que reflejan la personalidad de tu empresa y atraen a tus clientes.",
                 colorBorderService: "border-orange-500",
             },
             {
-                title: "Mensajes de Marca y Narración de Historias",
+                title: "Mensajes de marca y narración de historias",
                 description: "Un branding efectivo cuenta una historia. Creamos mensajes e historias de marca convincentes que transmiten los valores, la experiencia y los puntos de venta únicos de tu empresa, creando una conexión emocional con tus clientes.",
                 colorBorderService: "border-orange-500",
             },
             {
-                title: "Materiales de Marketing e Impresos",
+                title: "Materiales de marketing e impresos",
                 description: "Desde tarjetas de presentación hasta folletos y letreros en la oficina, nos aseguramos de que todos tus materiales impresos se alineen con la identidad de tu marca, creando una imagen consistente y profesional.",
                 colorBorderService: "border-orange-500",
             },
             {
-                title: "Branding en Redes Sociales",
+                title: "Branding en redes sociales",
                 description: "Creamos perfiles de redes sociales coherentes que reflejen la personalidad de tu marca y atraigan a tu audiencia.",
                 colorBorderService: "border-orange-500",
             },
             {
-                title: "Gestión y Evolución de la Marca",
+                title: "Gestión y evolución de la marca",
                 description: "Las marcas deben evolucionar para mantenerse relevantes. Ofrecemos servicios continuos de gestión de marca, asegurando que tu marca crezca y se adapte con tu empresa. Nuestro equipo monitorea continuamente el desempeño de la marca y realiza ajustes según sea necesario.",
                 colorBorderService: "border-orange-500",
             },
             {
-                title: "Sitio Web y Presencia Digital",
+                title: "Sitio web y presencia digital",
                 description: "Tu sitio web es a menudo el primer punto de contacto para los clientes potenciales. Diseñamos y desarrollamos sitios web que reflejen la identidad de tu marca, asegurando una experiencia en línea fluida y atractiva.",
                 colorBorderService: "border-orange-500",
             },],
         painPoints: [
             {
-                title: "Falta de Reconocimiento e Identidad Inconsistente: ",
+                title: "Falta de reconocimiento e identidad inconsistente: ",
                 description: "Una marca inconsistente puede confundir a los clientes y debilitar tu reputación. Desarrollamos un branding único y cohesivo que garantiza que tu empresa se destaque en la mente de los clientes en todas las plataformas, desde tu sitio web hasta las redes sociales y los materiales en la oficina."
             },
             {
-                title: "Débil Presencia en Línea:",
+                title: "Débil presencia en línea:",
                 description: "Una falta de branding sólido puede llevar a una débil presencia en línea, dificultando que los clientes potenciales encuentren y confíen en tu empresa. Nuestras estrategias de branding mejoran tu visibilidad en línea y tu credibilidad."
             },
             {
-                title: "Baja Lealtad del Cliente:",
+                title: "Baja lealtad del cliente:",
                 description: "Sin una marca sólida, es difícil construir la lealtad y retención del cliente. Creamos una historia de marca convincente que conecta con tus clientes, animándolos a regresar y referir a otros."
             },
         ],

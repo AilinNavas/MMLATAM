@@ -6,7 +6,7 @@ const nunito_sans = Nunito_Sans({ subsets: ["latin"] })
 
 const Logo = () => {
     return (
-        <div className='w-1/2 md:w-1/3 lg:w-1/5 text-center px-4 z-20'>
+        <div className='w-1/2 md:w-1/3 lg:w-1/5 text-center px-4 z-20 '>
             <Link href={'/'}>
             <h3 className={`${nunito_sans.className} text-white`}>
                 <span className='font-medium text-xl'>MUCHO</span>

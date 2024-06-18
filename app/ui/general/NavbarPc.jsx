@@ -14,27 +14,27 @@ import southsideEndodontics from '@/public/southsideEndodontics.jpeg'
 const NavbarPc = () => {
 
   return (
-    <div className='hidden lg:flex bg-black h-20 items-center px-3 py-12'>
+    <div className='hidden lg:flex bg-black h-16 items-center px-3'>
       <Logo />
       <div className='flex justify-around items-center cursor-pointer lg:w-3/5' >
         <FlyoutLink href='#' FlyoutContent={ServicesOptions}>
-          <span className='flex items-center text-lg font-medium leading-6 text-gray-200  hover:text-white'>¿Qué ofrecemos?
+          <span className='flex items-center text-base font-medium leading-6 text-gray-200  hover:text-white'>¿Qué ofrecemos?
             <svg xmlns="http:www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5 ml-1" aria-hidden="true">
               <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path>
             </svg>
           </span>
         </FlyoutLink>
         <FlyoutLink href='/about-us' FlyoutContent={AboutUs} >
-          <span className='flex items-center text-lg font-medium  text-gray-200  hover:text-white'>Sobre nosotros
+          <span className='flex items-center text-base font-medium  text-gray-200  hover:text-white'>Sobre nosotros
           </span>
         </FlyoutLink>
         <FlyoutLink href='/blog' FlyoutContent={Blog}  >
-          <span className='flex items-center text-lg font-medium  text-gray-200  hover:text-white'>Blog
+          <span className='flex items-center text-base font-medium  text-gray-200  hover:text-white'>Blog
           </span>
         </FlyoutLink>
 
         <FlyoutLink href='/case-study' FlyoutContent={CaseStudy}  >
-          <span className='flex items-center text-lg font-medium  text-gray-200  hover:text-white'>Caso de Éxito
+          <span className='flex items-center text-base font-medium  text-gray-200  hover:text-white'>Caso de Éxito
           </span>
         </FlyoutLink>
 
@@ -67,12 +67,12 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
       <AnimatePresence>
         {showFlyout &&
           (<motion.div
-            initial={{ opacity: 0, y: 15 }}
+            initial={{ opacity: 0, y: 5 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 15 }}
+            exit={{ opacity: 0, y: 5 }}
             style={{ translateX: '-50%' }}
             transition={{ duration: 0.3, ease: 'easeOut' }}
-            className='absolute -inset-x-16 top-12 bg-black text-white'>
+            className='absolute -inset-x-16 top-10 bg-black text-white'>
             <div className='absolute -top-6 left-0 right-0 h-6 bg-transparent'
             />
             <FlyoutContent />
