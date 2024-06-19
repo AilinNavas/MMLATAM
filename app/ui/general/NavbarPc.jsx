@@ -92,9 +92,9 @@ const ServicesOptions = () => {
       <div className='group flex flex-col w-1/4 mx-auto'>
         <h4 className='font-bold flex items-center  text-white space-x-2'>
           <span className='left-0 w-1 h-8 rounded-full bg-lime-500 group-hover:bg-lime-300' />
-          <Link href="/service/seo-local">SEO local</Link>
+          <Link href="/service/seo-local">SEO Local</Link>
         </h4>
-        <p className='p-2 font-light text-sm'>Domina los Resultados de Búsqueda Local con SEO Local Experto</p>
+        <p className='p-2 font-light text-sm'>Domina los resultados de búsqueda local con SEO Local</p>
       </div>
 
       <div className='group flex flex-col w-1/4 mx-auto'>
@@ -102,7 +102,7 @@ const ServicesOptions = () => {
           <span className='left-0 w-1 h-8 rounded-full bg-[#C30BB1] group-hover:bg-[#d874ce]' />
           <Link href="/service/web-design">Diseño Web</Link>
         </h4>
-        <p className='p-2 font-light text-sm'>Eleva Tu Empresa con un Diseño Web Excepcional y 100% Funcional </p>
+        <p className='p-2 font-light text-sm'>Eleva tu empresa con un diseño web excepcional y 100% funcional </p>
       </div>
 
       <div className='group flex flex-col w-1/4 mx-auto '>
@@ -110,7 +110,7 @@ const ServicesOptions = () => {
           <span className='left-0 w-1 h-8 rounded-full bg-[#2B0CEA] group-hover:bg-[#6d92f7]' />
           <Link href="/service/email-marketing">Email Marketing</Link>
         </h4>
-        <p className='p-2 font-light text-sm'>Transforma tu Empresa con Estrategias de Email Marketing Probadas</p>
+        <p className='p-2 font-light text-sm'>Transforma tu empresa con estrategias de email marketing probadas</p>
       </div>
 
       <div className='group flex flex-col w-1/4 mx-auto '>
@@ -118,7 +118,7 @@ const ServicesOptions = () => {
           <span className='left-0 w-1 h-8 rounded-full bg-[#FF7A00] group-hover:bg-[#f8b06c]' />
           <Link href="/service/branding">Branding</Link>
         </h4>
-        <p className='p-2 font-light text-sm '>Eleva el Perfil de Tu Empresa con una Marca Potente y Memorable
+        <p className='p-2 font-light text-sm '>Eleva el perfil de tu empresa con una marca potente y memorable
        </p>
       </div>
 
@@ -146,13 +146,13 @@ const AboutUs = () => {
 }
 const Blog = () => {
   return (
-    <div className='w-[600px] flex h-40 bg-black p-6 cursor-pointer'>
+    <div className='w-[450px] flex h-40 bg-black p-6 cursor-pointer'>
       <Link href={'/blog'}>
         <div className='group relative flex flex-col w-full'>
-          <h5 className='font-bold'>Últimos artículos blog</h5>
-          <p className='pt-2 font-light'>Cómo el SEO Local Puede Impulsar Tu Negocio</p>
-          <p className='pt-2 font-light'>Tendencias de Diseño Web para 2024</p>
-          <p className='pt-2 font-light'>Estrategias de Email Marketing para 2024</p>
+          <h5 className='font-bold mb-2'>Últimos artículos blog</h5>
+          <p className=' font-light border-l-4 border-lime-500 px-2 mb-2'>Cómo el SEO Local puede impulsar tu negocio</p>
+          <p className=' font-light border-l-4 border-[#C30BB1] px-2 mb-2'>Tendencias de diseño web para 2024</p>
+          <p className=' font-light border-l-4 border-[#2B0CEA] px-2 mb-2'>Estrategias de email marketing para 2024</p>
         </div>
       </Link>
     </div>

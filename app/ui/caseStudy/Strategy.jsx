@@ -24,7 +24,7 @@ const Strategy = () => {
                                 <h6 className='font-bold text-xl leading-6 tex-black'>{strategy.strategyName}</h6>
                                 <span className='text-xl leading-6 '>{strategy.id}.</span>
                             </div>
-                            <div className='flex justify-between items-end '>
+                            <div className='flex justify-between items-end'>
                                 <p className='leading-5 text-lg lg:pr-10'>{strategy.strategyDescription}</p>
                                 <Image src={strategy.srcIcon} alt={strategy.altTextIcon} className='w-12 h-12' />
                             </div>

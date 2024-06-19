@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
         <>
             <NavbarMobile />
             <NavbarPc />
-            <Banner text={'Descubrí Ideas que inspiran y un futuro digital que promete'} />
+            <Banner text={'Descubrí ideas que inspiran y un futuro digital que promete'} />
             {children}
         </>
     );

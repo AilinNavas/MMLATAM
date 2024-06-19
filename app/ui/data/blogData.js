@@ -1,21 +1,21 @@
 const blogData = [
   {
       id: 1,
-      category: "SEO local",
-      title: "Cómo el SEO Local Puede Impulsar Tu Negocio",
+      category: "SEO Local",
+      title: "Cómo el SEO Local puede impulsar tu negocio",
       readingTime: "5 minutos",
       colorCategory: "border-lime-500",
       content: [
           {
-              subtitle: "La Importancia del SEO Local",
+              subtitle: "La importancia del SEO Local",
               paragraph: "El SEO local es una estrategia fundamental para las empresas que buscan atraer clientes en su área geográfica. Optimizar tu presencia en línea asegura que tu negocio aparezca en las búsquedas relevantes en tu zona, lo que puede aumentar significativamente el tráfico y las ventas."
           },
           {
-              subtitle: "Optimización de Google My Business",
-              paragraph: "Google My Business es una herramienta esencial para mejorar tu visibilidad local. Asegúrate de que tu perfil esté completo y actualizado, y fomenta a tus clientes a dejar reseñas para mejorar tu reputación en línea."
+              subtitle: "Optimización de Google My Profile",
+              paragraph: "Google My Profile es una herramienta esencial para mejorar tu visibilidad local. Asegúrate de que tu perfil esté completo y actualizado, y fomenta a tus clientes a dejar reseñas para mejorar tu reputación en línea."
           },
           {
-              subtitle: "Contenido Localizado",
+              subtitle: "Contenido localizado",
               paragraph: "Crear contenido que se enfoque en eventos locales, noticias de la comunidad y otros temas relevantes puede atraer a más visitantes locales y mejorar tu posicionamiento en los motores de búsqueda."
           }
       ]
@@ -23,12 +23,12 @@ const blogData = [
   {
       id: 2,
       category: "Diseño web",
-      title: "Tendencias de Diseño Web para 2024",
+      title: "Tendencias de diseño web para 2024",
       readingTime: "7 minutos",
       colorCategory: "border-[#C30BB1]",
       content: [
           {
-              subtitle: "Diseño Responsivo",
+              subtitle: "Diseño responsivo",
               paragraph: "Con el aumento del uso de dispositivos móviles, es crucial que los sitios web sean responsivos. Un diseño que se adapta a cualquier tamaño de pantalla mejora la experiencia del usuario y puede reducir la tasa de rebote."
           },
           {
@@ -36,7 +36,7 @@ const blogData = [
               paragraph: "El minimalismo sigue siendo una tendencia fuerte en el diseño web. Un diseño limpio y simple no solo es estéticamente agradable, sino que también mejora la navegación y la usabilidad."
           },
           {
-              subtitle: "Velocidad de Carga",
+              subtitle: "Velocidad de carga",
               paragraph: "La velocidad de carga de un sitio web es un factor crucial para la retención de usuarios. Optimizar imágenes, reducir scripts innecesarios y utilizar técnicas de carga diferida pueden mejorar significativamente los tiempos de carga."
           }
       ]
@@ -44,12 +44,12 @@ const blogData = [
   {
       id: 3,
       category: "Email Marketing",
-      title: "Estrategias de Email Marketing para 2024",
+      title: "Estrategias de email marketing para 2024",
       readingTime: "6 minutos",
       colorCategory: "border-[#2B0CEA]",
       content: [
           {
-              subtitle: "Segmentación de Audiencia",
+              subtitle: "Segmentación de audiencia",
               paragraph: "La segmentación es clave para una campaña de email marketing exitosa. Clasificar a tu audiencia según intereses y comportamientos permite enviar mensajes más personalizados y relevantes."
           },
           {
@@ -57,74 +57,32 @@ const blogData = [
               paragraph: "La automatización puede ahorrar tiempo y asegurar que los correos electrónicos se envíen en el momento adecuado. Implementa automatizaciones para correos de bienvenida, recordatorios de carritos abandonados y seguimientos post-compra."
           },
           {
-              subtitle: "Medición y Análisis",
+              subtitle: "Medición y análisis",
               paragraph: "Es crucial medir el rendimiento de tus campañas. Utiliza herramientas de análisis para monitorear tasas de apertura, clics y conversiones, y ajusta tus estrategias en consecuencia."
           }
       ]
   },
   {
       id: 4,
-      category: "Consultoría Digital",
-      title: "Beneficios de la Consultoría Digital para PYMES",
-      readingTime: "5 minutos",
-      colorCategory: "border-[#FF7A00]",
-      content: [
-          {
-              subtitle: "Evaluación de Estrategias",
-              paragraph: "Un consultor digital puede evaluar tus estrategias actuales y proporcionar recomendaciones para mejorar tu presencia en línea y tus campañas de marketing."
-          },
-          {
-              subtitle: "Implementación de Nuevas Tecnologías",
-              paragraph: "La tecnología está en constante evolución, y un buen consultor te ayudará a estar al día con las últimas herramientas y técnicas que pueden mejorar la eficiencia y la experiencia del cliente."
-          },
-          {
-              subtitle: "Formación y Capacitación",
-              paragraph: "Un consultor puede proporcionar formación y capacitación a tu equipo para asegurar que todos estén alineados y aprovechen al máximo las estrategias digitales implementadas."
-          }
-      ]
-  },
-  {
-      id: 5,
-      category: "Redes Sociales",
-      title: "Maximizando el Impacto de tus Redes Sociales",
+      category: "Branding",
+      title: "Maximizando el impacto de tus redes sociales",
       readingTime: "6 minutos",
-      colorCategory: "border-[#1DA1F2]",
+      colorCategory: "border-orange-500",
       content: [
           {
-              subtitle: "Creación de Contenido Atractivo",
+              subtitle: "Creación de contenido atractivo",
               paragraph: "El contenido es el rey en las redes sociales. Crea contenido visualmente atractivo y relevante para tu audiencia para aumentar el engagement y la fidelidad de los seguidores."
           },
           {
-              subtitle: "Uso de Análisis de Datos",
+              subtitle: "Uso de análisis de datos",
               paragraph: "Utiliza herramientas de análisis para monitorear el rendimiento de tus publicaciones y campañas. Esta información te ayudará a ajustar tu estrategia y mejorar tus resultados."
           },
           {
-              subtitle: "Interacción con la Audiencia",
+              subtitle: "Interacción con la audiencia",
               paragraph: "Responder a comentarios y mensajes de manera oportuna y genuina puede fortalecer la relación con tu audiencia y aumentar la lealtad de los clientes."
           }
       ]
   },
-  {
-      id: 6,
-      category: "Publicidad en Línea",
-      title: "Estrategias de Publicidad en Línea para Pequeñas Empresas",
-      readingTime: "7 minutos",
-      colorCategory: "border-[#FF4500]",
-      content: [
-          {
-              subtitle: "Publicidad en Redes Sociales",
-              paragraph: "Las plataformas de redes sociales ofrecen opciones de publicidad altamente segmentadas que pueden ayudar a las pequeñas empresas a llegar a su público objetivo de manera efectiva."
-          },
-          {
-              subtitle: "Publicidad en Motores de Búsqueda",
-              paragraph: "Los anuncios de búsqueda pagados pueden aumentar significativamente la visibilidad de tu empresa en los resultados de búsqueda. Asegúrate de utilizar palabras clave relevantes y una buena segmentación."
-          },
-          {
-              subtitle: "Remarketing",
-              paragraph: "El remarketing permite mostrar anuncios a personas que ya han visitado tu sitio web. Esta técnica puede aumentar las conversiones al volver a atraer a visitantes interesados."
-          }
-      ]
-  }
 ];
 
 export default blogData;

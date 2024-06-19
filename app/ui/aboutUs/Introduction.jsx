@@ -9,7 +9,7 @@ const Introduction = () => {
                 </header>
 
                 <div className='text-white space-y-4'>
-                    <p >En MUCHO <strong>MARKETING</strong>, creemos que cada negocio merece brillar en linea. Nuestros fundadores, Joel y Ailin, reúnen su experiencia en SEO y diseño web para crear una agencia de marketing digital que se destaca en un mercado saturado.</p>
+                    <p >En MUCHO <strong>MARKETING</strong>, creemos que cada negocio merece brillar en linea. Nuestros fundadores, Joel y Ailin, reúnen su experiencia en el marketing digital para crear una agencia que se destaca en un mercado saturado.</p>
                     <p>¿Su objetivo? Brindar servicios excepcionales y personalizados a mejores precios, marcando una diferencia real para los negocios en todas partes.</p>
                 </div>
             </div>
