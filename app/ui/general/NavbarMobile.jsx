@@ -67,22 +67,22 @@ const AnimatedHamburgerButton = () => {
                             <span className='w-1 h-8 rounded-full bg-lime-500 mr-2' />
                             <Link href="/service/seo-local" className="text-white text-2xl" onClick={handleLinkClick}>SEO Local</Link>
                         </div>
-                        <p className='pl-4 font-light text-white text-sm'>Domina los Resultados de Búsqueda Local con SEO Local Experto</p>
+                        <p className='pl-4 font-light text-white text-sm'>Domina los resultados de búsqueda local con SEO Local</p>
                         <div className='flex'>
                             <span className='w-1 h-8 rounded-full bg-[#C30BB1] mr-2' />
                             <Link href="/service/web-design" className="text-white text-2xl" onClick={handleLinkClick}>Diseño Web</Link>
                         </div>
-                        <p className='pl-4 font-light text-white text-sm'>Eleva Tu Empresa con un Diseño Web Excepcional y 100% Funcional </p>
+                        <p className='pl-4 font-light text-white text-sm'>Eleva tu empresa con un diseño web excepcional y 100% funcional </p>
                         <div className='flex'>
                             <span className='w-1 h-8 rounded-full bg-[#2B0CEA] mr-2' />
                             <Link href="/service/email-marketing" className="text-white text-2xl" onClick={handleLinkClick}>Email Marketing</Link>
                         </div>
-                        <p className='pl-4 font-light text-white text-sm'>Transforma tu Empresa con Estrategias de Email Marketing Probadas</p>
+                        <p className='pl-4 font-light text-white text-sm'>Transforma tu empresa con estrategias de email marketing probadas</p>
                         <div className='flex'>
                             <span className='w-1 h-8 rounded-full bg-[#FF7A00] mr-2' />
                             <Link href="/service/branding" className="text-white text-2xl" onClick={handleLinkClick}>Branding</Link>
                         </div>
-                        <p className='pl-4 font-light text-white text-sm'>Eleva el Perfil de Tu Empresa con una Marca Potente y Memorable</p>
+                        <p className='pl-4 font-light text-white text-sm'>Eleva el perfil de tu empresa con una marca potente y memorable</p>
                         <Link href="/about-us" className="text-white text-2xl ml-2 pt-1" onClick={handleLinkClick}>Sobre nosotros</Link>
                         <Link href="/blog" className="text-white text-2xl ml-2" onClick={handleLinkClick}>Blog</Link>
                         <Link href="/case-study" className="text-white text-2xl ml-2" onClick={handleLinkClick}>Caso de Exíto</Link>

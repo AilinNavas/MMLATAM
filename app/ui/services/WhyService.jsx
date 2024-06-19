@@ -22,7 +22,7 @@ console.log(urlImage)
                     </div>
 
                     <div className="flex flex-col items-center lg:pl-4 md:w-[44%] 2xl:pl-24">
-                        <Image src={urlImage } className='w-[80%]'/>
+                        <Image src={urlImage } className='w-[80%]' priority placeholder='blur'/>
                       
                     </div>
 
