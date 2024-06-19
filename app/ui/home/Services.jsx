@@ -83,12 +83,12 @@ const Services = () => {
                 <div className='p-6'>
                   <div className="text-gray-200 font-normal text-md">
                     <ul>
-                      <li className='text-white flex items-center'>
-                        <Image src={'/check.svg'} width={16} height={20} className='mr-1' alt="Check Icon" />
+                      <li className='text-white flex items-start'>
+                        <Image src={'/check.svg'} width={16} height={10} className='mr-2 pt-1' alt="Check Icon" />
                         {activeService.cards[currentCard].beneficio1}
                       </li>
-                      <li className='text-white flex items-center'>
-                        <Image src={'/check.svg'} width={16} height={20} className='mr-1' alt="Check Icon" />
+                      <li className='text-white flex items-start'>
+                        <Image src={'/check.svg'} width={16} height={10} className='mr-2 pt-1' alt="Check Icon" />
                         {activeService.cards[currentCard].beneficio2}
                       </li>
                     </ul>

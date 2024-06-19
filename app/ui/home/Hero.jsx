@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
           </div>
         </div>
-        <Image src={banner} alt='Image tech' quality={100} priority className='w-full h-full absolute top-12 -z-10
+        <Image src={banner} alt='Image tech' quality={100} priority placeholder="blur" className='w-full h-full absolute top-12 -z-10
         ' />
     </div>
   )
