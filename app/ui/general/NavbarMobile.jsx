@@ -63,26 +63,28 @@ const AnimatedHamburgerButton = () => {
                     className="fixed top-0 left-0 right-0 bottom-0 bg-[#191919] z-10 overflow-hidden"
                 >
                     <nav className="flex mt-12 flex-col items-start justify-start space-y-4 h-full p-8">
-                        <div className='flex'>
-                            <span className='w-1 h-8 rounded-full bg-lime-500 mr-2' />
-                            <Link href="/service/seo-local" className="text-white text-2xl" onClick={handleLinkClick}>SEO Local</Link>
-                        </div>
-                        <p className='pl-4 font-light text-white text-sm'>Domina los resultados de búsqueda en Google con SEO Local</p>
+                       
                         <div className='flex'>
                             <span className='w-1 h-8 rounded-full bg-[#C30BB1] mr-2' />
                             <Link href="/service/web-design" className="text-white text-2xl" onClick={handleLinkClick}>Diseño Web</Link>
                         </div>
                         <p className='pl-4 font-light text-white text-sm'>Eleva tu empresa con un diseño web excepcional y 100% funcional </p>
                         <div className='flex'>
-                            <span className='w-1 h-8 rounded-full bg-[#2B0CEA] mr-2' />
-                            <Link href="/service/email-marketing" className="text-white text-2xl" onClick={handleLinkClick}>Email Marketing</Link>
-                        </div>
-                        <p className='pl-4 font-light text-white text-sm'>Transforma tu empresa con estrategias de email marketing probadas</p>
-                        <div className='flex'>
                             <span className='w-1 h-8 rounded-full bg-[#FF7A00] mr-2' />
                             <Link href="/service/branding" className="text-white text-2xl" onClick={handleLinkClick}>Branding</Link>
                         </div>
                         <p className='pl-4 font-light text-white text-sm'>Impulsa tu Identidad con una estrategia de marca de alto impacto</p>
+                        <div className='flex'>
+                            <span className='w-1 h-8 rounded-full bg-lime-500 mr-2' />
+                            <Link href="/service/seo-local" className="text-white text-2xl" onClick={handleLinkClick}>SEO Local</Link>
+                        </div>
+                        <p className='pl-4 font-light text-white text-sm'>Domina los resultados de búsqueda en Google con SEO Local</p>
+                        <div className='flex'>
+                            <span className='w-1 h-8 rounded-full bg-[#2B0CEA] mr-2' />
+                            <Link href="/service/email-marketing" className="text-white text-2xl" onClick={handleLinkClick}>Email Marketing</Link>
+                        </div>
+                        <p className='pl-4 font-light text-white text-sm'>Transforma tu empresa con estrategias de email marketing probadas</p>
+                      
                         <Link href="/about-us" className="text-white text-2xl ml-2 pt-1" onClick={handleLinkClick}>Sobre nosotros</Link>
                         <Link href="/blog" className="text-white text-2xl ml-2" onClick={handleLinkClick}>Blog</Link>
                     </nav>
