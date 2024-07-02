@@ -1,5 +1,3 @@
-"use client"
-import Banner from '../ui/blog/Banner';
 import OurTeam from '../ui/aboutUs/OurTeam';
 import OurValues from '../ui/aboutUs/OurValues';
 import OurMision from '../ui/aboutUs/OurMision';
@@ -16,7 +14,6 @@ export default function AboutUs() {
     <main >
       <NavbarMobile />
       <NavbarPc />
-      <Banner text={'Experimentá la diferencia que pueden marcar la pasión y la dedicación'} />
       <Introduction />
       <OurTeam /> 
       <OurValues />

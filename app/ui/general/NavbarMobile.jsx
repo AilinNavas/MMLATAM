@@ -7,7 +7,7 @@ import Logo from '../general/Logo';
 const NavbarMobile = () => {
     return (
         <div className='lg:hidden'>
-            <div className='flex items-center h-20 bg-black justify-between px-4'>
+            <div className='flex items-center bg-[#191919] justify-between p-4'>
                 <Logo />
                 <AnimatedHamburgerButton />
             </div>
@@ -28,7 +28,7 @@ const AnimatedHamburgerButton = () => {
                 <motion.button
                     initial={false}
                     onClick={() => setActive(pv => !pv)}
-                    className='relative z-20 h-16 w-16 rounded-full bg-white/0 transition-colors hover:bg-white/20'
+                    className='relative z-20 h-16 w-16 rounded-full bg-white/0 transition-colors hover:bg-white/10'
                     animate={active ? "open" : "closed"}
                 >
                     <motion.span
@@ -60,14 +60,14 @@ const AnimatedHamburgerButton = () => {
                 <motion.div
                     initial={{ opacity: 0, height: 0 }}
                     animate={active ? { opacity: 1, height: '100vh' } : { opacity: 0, height: 0 }}
-                    className="fixed top-0 left-0 right-0 bottom-0 bg-black z-10 overflow-hidden"
+                    className="fixed top-0 left-0 right-0 bottom-0 bg-[#191919] z-10 overflow-hidden"
                 >
                     <nav className="flex mt-12 flex-col items-start justify-start space-y-4 h-full p-8">
                         <div className='flex'>
                             <span className='w-1 h-8 rounded-full bg-lime-500 mr-2' />
                             <Link href="/service/seo-local" className="text-white text-2xl" onClick={handleLinkClick}>SEO Local</Link>
                         </div>
-                        <p className='pl-4 font-light text-white text-sm'>Domina los resultados de búsqueda local con SEO Local</p>
+                        <p className='pl-4 font-light text-white text-sm'>Domina los resultados de búsqueda en Google con SEO Local</p>
                         <div className='flex'>
                             <span className='w-1 h-8 rounded-full bg-[#C30BB1] mr-2' />
                             <Link href="/service/web-design" className="text-white text-2xl" onClick={handleLinkClick}>Diseño Web</Link>
@@ -82,10 +82,9 @@ const AnimatedHamburgerButton = () => {
                             <span className='w-1 h-8 rounded-full bg-[#FF7A00] mr-2' />
                             <Link href="/service/branding" className="text-white text-2xl" onClick={handleLinkClick}>Branding</Link>
                         </div>
-                        <p className='pl-4 font-light text-white text-sm'>Eleva el perfil de tu empresa con una marca potente y memorable</p>
+                        <p className='pl-4 font-light text-white text-sm'>Impulsa tu Identidad con una estrategia de marca de alto impacto</p>
                         <Link href="/about-us" className="text-white text-2xl ml-2 pt-1" onClick={handleLinkClick}>Sobre nosotros</Link>
                         <Link href="/blog" className="text-white text-2xl ml-2" onClick={handleLinkClick}>Blog</Link>
-                        <Link href="/case-study" className="text-white text-2xl ml-2" onClick={handleLinkClick}>Caso de Exíto</Link>
                     </nav>
                 </motion.div>
             </div>

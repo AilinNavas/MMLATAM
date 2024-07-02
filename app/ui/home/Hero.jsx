@@ -1,28 +1,33 @@
 import React from 'react'
-import {archivo} from '@/app/layout'
 import Image from 'next/image'
-import banner from '../../../public/banner2.jpeg'
+import hero from '@/public/hero.png'
 import Button from '../general/Button'
 
 const Hero = () => {
   return (
-    <div className='w-[100vw]'>
-      
-        <div className='relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 mx-auto'>
-          <div className=''>
-          <h1 className='text-white font-bold text-center text-4xl tracking-tight md:text-5xl lg:text-6xl space-y-2'>
-            <span className='block'>No pienses en marketing</span> 
-            <span className='block'>nunca más</span> 
-            </h1>
-          <p className={` ${archivo.className} mt-6 mx-auto text-center text-xl text-white sm:max-w-3xl`}>Contrata expertos para elaborar y ejecutar tu mejor estrategia</p>
-          <div className='mt-5 max-w-sm mx-auto flex-col md:flex-row flex justify-center items-center md:mt-8 lg:px-4'>
-            <Button bg={'bg-violet-500'} bgHover={'hover:bg-violet-900'} text={'Empieza hoy'} textColor={'text-white'} especif={'px-0'} />
-            <Button bg={'bg-white'} bgHover={'hover:bg-purple-200'} text={'Conócenos'} textColor={'text-violet-500'} especif={'m-1 px-0'} href={'#our-services'}/>
+    <div className='w-[100vw] bg-[#191919]'>
+
+      <div className='px-4 py-16 sm:px-6 xl:py-32 lg:px-8 mx-auto'>
+        <div className='max-w-7xl mx-auto flex flex-col md:flex-row'>
+          <div className='md:w-1/2 flex flex-col justify-center md:space-y-4'>
+            <span className='text-[#C30BB1] font-bold text-3/5xl md:text-5xl lg:text-7xl'>Creatividad .</span>
+            <span className='text-white font-bold text-3/5xl md:text-5xl lg:text-7xl'>Innovación .</span>
+            <span className='text-[#9391F4] font-bold text-3/5xl md:text-5xl lg:text-7xl'>Performance .</span>
+
           </div>
+          <div className='md:w-1/2 hidden md:flex justify-center items-center'>
+            <Image src={hero} alt='web site responsive' className='' />
           </div>
+
         </div>
-        <Image src={banner} alt='Image tech' quality={100} priority placeholder="blur" className='w-full h-full absolute top-12 -z-10
-        ' />
+
+        <div className='max-w-7xl mx-auto'>
+          <p className='text-white py-4 px-2 text-2xl'>Diseños web personalizados , sin plantillas , desarrollados para comunicar y vender , pensados para que te diferencies de tu competencia.</p>
+          <Button text={'Cotizar proyecto'} especif={'rounded-md mx-2 my-4'} />
+        </div>
+
+
+      </div>
     </div>
   )
 }

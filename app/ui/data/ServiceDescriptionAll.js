@@ -67,7 +67,7 @@ const serviceDescriptionAll = [
         colorService: "bg-[#C30BB1]",
         colorTextService: "text-[#C30BB1]",
         urlImage : webdesign,
-        descriptiveTitle: "Eleva tu empresa con un diseño web excepcional",
+        descriptiveTitle: "Eleva tu empresa con un diseño web excepcional y 100% funcional",
         serviceIntroduction: [
             "En la era digital actual, tu sitio web es a menudo la primera impresión que los potenciales clientes tienen de tu empresa. ¿Tu sitio web está ayudando a atraer nuevos clientes y retener a los existentes, o los está alejando?",
             "En MUCHO MARKETING, nos especializamos en crear sitios web impresionantes y fáciles de usar para todo tipo de empresas, asegurando que dejes una impresión duradera."
@@ -198,7 +198,7 @@ const serviceDescriptionAll = [
         colorService: "bg-orange-500",
         colorTextService: "text-orange-500",
         urlImage : branding,
-        descriptiveTitle: "Estrategia de marca",
+        descriptiveTitle: "Impulsa tu Identidad con una estrategia de marca de alto impacto",
         serviceIntroduction: [
             "En la industria empresarial altamente competitiva, tu marca es tu identidad. Es cómo los clientes te reconocen y recuerdan. ¿Tu empresa se destaca de la competencia o se confunde con el resto?",
             "En MUCHO MARKETING, nos especializamos en crear marcas convincentes y memorables para empresas, asegurando que dejes una impresión duradera."

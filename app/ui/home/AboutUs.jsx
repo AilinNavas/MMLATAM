@@ -1,16 +1,18 @@
-import React from 'react'
 
 const AboutUs = () => {
+
   return (
-    <section className='bg-[#0F0F11]'>
+    <section
+    id='aboutMM'
+
+  >
       <div className='mx-auto max-w-7xl py-12 px-4 flex flex-col justify-center'>
         <header>
-          <h2 className='text-[#F7F7FA] font-semibold pb-12 text-3/5xl text-center'>Meet Mucho Marketing</h2>
+          <h1 className='text-[#F7F7FA] font-semibold pb-12 text-3/5xl text-center'>Especialista en Diseño y Desarrollo Web</h1>
         </header>
 
-        <div className='rounded-2xl overflow-hidden aspect-video'>
-        <iframe src="https://www.loom.com/embed/d8e96ab640674dd5a489d08c88c00baa?sid=c8087434-05f9-45a8-8592-f271c1205708"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  referrerPolicy="strict-origin-when-cross-origin" className='w-full h-full'></iframe>
-          {/* <iframe className='w-full h-full' src="https://www.youtube.com/embed/mkEf-1pXdaM?si=5jtglqSduojJk5H1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen illow-src="https://www.youtube.com/embed/mkEf-1pXdaM?si=5jtglqSduojJk5H1"></iframe> */}
+        <div className='text-[#F7F7FA] text-lg lg:text-2xl px-4'>
+          <p>Somos creadores de soluciones digitales personalizadas que destacan en el competitivo mercado actual. Utilizamos tecnologías de vanguardia y estrategias innovadoras para garantizar que tu sitio web no solo sea atractivo, sino también altamente funcional y optimizado para motores de búsqueda. </p>
         </div>
       </div>
     </section>

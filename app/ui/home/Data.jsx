@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 const Data = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
-  const limit1 = 300;
+  const limit1 = 50;
   const limit2 = 20;
 
   const { ref, inView } = useInView({
@@ -49,7 +49,7 @@ const Data = () => {
               +{count1}%
             </div>
             <span className='text-sm font-bold leading-5 pt-4 text-center text-athensGray inline-block lg:font-normal lg:text-xl lg:leading-8 lg:h-16 lg:w-64'>
-              <p>nuevos clientes convertidos.</p>
+              <p>de visitas y conversiones en tu sitio web.</p>
             </span>
           </div>
           <div className='justify-center self-center flex flex-col text-center md:w-1/2 md:p-8 odd:border-none md:border-l-4 border-white lg:items-center'>

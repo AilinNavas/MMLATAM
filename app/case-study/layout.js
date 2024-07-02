@@ -9,7 +9,6 @@ export default function RootLayout({ children }) {
    <>
    <NavbarMobile />
    <NavbarPc />
-   <Banner text={'La trasformación es uno a uno'} />
    {children}
    <Footer />
    </>

@@ -4,8 +4,9 @@ import Footer from "./ui/home/Footer";
 import Data from "./ui/home/Data";
 import Hero from "./ui/home/Hero";
 import NavbarPc from "./ui/general/NavbarPc";
+import AboutUs from "./ui/home/AboutUs";
 import Services from "./ui/home/Services";
-import Testimonials from "./ui/home/Testimonials";
+import OurProcess from "./ui/home/OurProcess";
 import NavbarMobile from "./ui/general/NavbarMobile";
 import Tecnologies from "./ui/home/Tecnologies";
 
@@ -15,11 +16,11 @@ export default function Home() {
       <NavbarMobile />
       <NavbarPc />
       <Hero />
-      {/* <AboutUs /> */}
+      <AboutUs /> 
+      <OurProcess />
+      <Data />
       <Services />
       <Tecnologies />
-      <Data />
-      <Testimonials />
       <ConctactUs />
       <Footer />
 

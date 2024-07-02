@@ -19,9 +19,7 @@ const Footer = () => {
               <li className="text-base text-gray-300 hover:text-white">
                 <Link href="/about-us">Sobre nosotros</Link>
               </li>
-              <li className="text-base text-gray-300 hover:text-white">
-                <Link href="/case-study">Caso de Exíto</Link>
-              </li>
+             
             </ul>
 
           </div>
@@ -53,7 +51,7 @@ const Footer = () => {
                       bgHover={"hover:bg-violet-900"}
                       text={"Contactar"}
                       textColor={"text-white"}
-                      especif={"h-full lg:max-w-36 lg:rounded-md"}
+                      especif={"h-full w-full lg:max-w-36 rounded-md"}
                     />
                   </div>
                 </div>

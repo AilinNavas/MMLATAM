@@ -7,7 +7,7 @@ const StartToday = ({ goals, startToday }) => {
 
       <div className='mx-auto max-w-7xl px-4'>
         <header>
-          <h2 className='text-black text-3/5xl font-bold text-center'>Tus objetivos, nuestros objetivos</h2>
+          <h2 className='text-black text-3/5xl font-bold text-center'>Tus objetivos son nuestros objetivos</h2>
           <div className='text-lg leading-8 font-normal text-left w-full mt-5'>
             <p>{goals}</p>
           </div>

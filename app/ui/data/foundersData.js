@@ -3,32 +3,6 @@ import joel from '../../../public/joel.jpg';
 
 const foundersData = [
     {
-        title: "Joel Chavez",
-        description: [
-            "Con más de 3 años de experiencia en el campo en constante evolución del SEO, Joel tiene un historial comprobado de generar resultados para empresas de todos los tamaños. Su viaje comenzó con una pasión por comprender los algoritmos de búsqueda y un talento para aprovecharlos para aumentar la visibilidad en línea.",
-            "A lo largo de los años, ha perfeccionado sus habilidades, manteniéndose a la vanguardia de las tendencias de la industria e implementando estrategias de vanguardia que ofrecen las mejores clasificaciones y un mayor tráfico."
-        ],
-        values: [
-            {
-                title: 'INNOVADOR',
-                detail: 'Siempre a la vanguardia de las tendencias de SEO, Joel aporta soluciones innovadoras a desafíos complejos.'
-            },
-            {
-                title: 'ESTRATEGA',
-                detail: 'Conocido por su mente analítica, elabora estrategias basadas en datos que producen resultados mensurables.'
-            },
-            {
-                title: 'CONECTOR',
-                detail: 'Se destaca por cerrar la brecha entre los negocios y sus públicos objetivo, garantizando una comunicación y un compromiso efectivos.'
-            }
-        ],
-        imageUrl: joel,
-        altText: "Imagen Joel Chavez",
-        color: "#04ADEE",
-    
-      
-    },
-    {
         title: "Ailin Navas",
         description: [
             "Con buen ojo para la estética y talento para la codificación, Ailin combina el arte y la ciencia del diseño y desarrollo web. ",
@@ -59,7 +33,34 @@ const foundersData = [
         },
     
 
-    }
+    },
+    {
+        title: "Joel Chavez",
+        description: [
+            "Con más de 3 años de experiencia en el campo en constante evolución del SEO, Joel tiene un historial comprobado de generar resultados para empresas de todos los tamaños. Su viaje comenzó con una pasión por comprender los algoritmos de búsqueda y un talento para aprovecharlos para aumentar la visibilidad en línea.",
+            "A lo largo de los años, ha perfeccionado sus habilidades, manteniéndose a la vanguardia de las tendencias de la industria e implementando estrategias que ofrecen las mejores clasificaciones y un mayor tráfico."
+        ],
+        values: [
+            {
+                title: 'INNOVADOR',
+                detail: 'Siempre a la vanguardia de las tendencias de SEO, Joel aporta soluciones innovadoras a desafíos complejos.'
+            },
+            {
+                title: 'ESTRATEGA',
+                detail: 'Conocido por su mente analítica, elabora estrategias basadas en datos que producen resultados mensurables.'
+            },
+            {
+                title: 'CONECTOR',
+                detail: 'Se destaca por cerrar la brecha entre los negocios y sus públicos objetivo, garantizando una comunicación y un compromiso efectivos.'
+            }
+        ],
+        imageUrl: joel,
+        altText: "Imagen Joel Chavez",
+        color: "#04ADEE",
+    
+      
+    },
+    
 ];
 
 export default foundersData;
