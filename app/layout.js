@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google";
 import { Archivo } from "next/font/google";
+import { Assistant } from "next/font/google";
 import "./globals.css";
 
 

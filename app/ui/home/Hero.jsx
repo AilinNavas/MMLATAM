@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import hero from '@/public/hero.png'
 import Button from '../general/Button'
 
 const Hero = () => {
@@ -16,7 +14,7 @@ const Hero = () => {
 
           </div>
           <div className='md:w-1/2 hidden md:flex justify-center items-center'>
-            <Image src={hero} alt='web site responsive' className='' />
+     
           </div>
 
         </div>
