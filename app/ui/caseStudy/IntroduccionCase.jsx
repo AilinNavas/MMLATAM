@@ -1,6 +1,6 @@
 import React from 'react'
-import Image from 'next/image'
-import southsideEndodontics from '@/public/southsideEndodontics.jpeg'
+
+
 
 const IntroduccionCase = () => {
     return (
@@ -16,9 +16,9 @@ const IntroduccionCase = () => {
                         <p>A pesar de sus servicios de alta calidad y su excelente atención al paciente, su presencia en línea era limitada y les costaba aparecer en los resultados de búsqueda locales. </p>
                         <p>Se asociaron con MUCHO<strong>MARKETING</strong> para mejorar su SEO Local y aumentar su visibilidad entre los pacientes potenciales de la zona.</p>
                     </div>
-                    <div className='mt-6 lg:mt-0 lg:w-1/3'>
+                    {/* <div className='mt-6 lg:mt-0 lg:w-1/3'>
                         <Image src={southsideEndodontics} alt='Southside endodontics team' className='rounded-md' />
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
