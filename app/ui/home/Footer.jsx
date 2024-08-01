@@ -49,7 +49,7 @@ const Footer = () => {
                     <Button
                       bg={"bg-violet-500"}
                       bgHover={"hover:bg-violet-900"}
-                      text={"Contactar"}
+                      text={"Enviar"}
                       textColor={"text-white"}
                       especif={"h-full w-full lg:max-w-36 rounded-md"}
                     />
