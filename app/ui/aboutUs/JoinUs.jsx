@@ -4,7 +4,7 @@ import ConctactUs from '../home/ConctactUs'
 const JoinUs = () => {
     return (
         <section className='bg-white '>
-            <div className='mx-auto max-w-7xl px-4 pt-20 flex flex-col justify-center'>
+            <div className='mx-auto max-w-7xl px-4 pt-20 pb-12 lg:pb-0 flex flex-col justify-center'>
                 <header>
                     <h2 className='text-[#060606] font-semibold pb-12 text-3/5xl text-center'>Únete a nosotros en nuestro viaje
                     </h2>

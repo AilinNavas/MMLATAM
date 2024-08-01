@@ -9,8 +9,8 @@ export default function Page({ params }) {
     }
 
     return (
-        <section className='bg-[#0F0F11] py-20 p-4'>
-            <div className={`container space-y-4 text-white mx-auto p-8 max-w-7xl bg-[#18181B] rounded-md border-t-4 ${article.colorCategory}`}>
+        <section className='bg-[#191919] py-20 p-4'>
+            <div className={`container space-y-4 text-white mx-auto p-8 max-w-7xl bg-[#09090A] rounded-md border-t-4 ${article.colorCategory}`}>
                 <h3 className=" text-xl font-bold ">{article.title}</h3>
                 <p className="text-gray-200">{article.category}</p>
                 {article.content.map((section, index) => (

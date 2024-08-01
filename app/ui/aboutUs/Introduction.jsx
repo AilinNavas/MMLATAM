@@ -2,7 +2,7 @@ import React from 'react'
 
 const Introduction = () => {
     return (
-      <section className='bg-[#09090A] pt-20'>
+      <section className='bg-[#191919] py-20'>
             <div className='mx-auto  max-w-7xl px-4 flex flex-col justify-start items-center'>
                 <header>
                     <h2 className='text-[#F7F7FA] font-semibold pb-12 text-3/5xl text-center'>Nuestros fundadores</h2>

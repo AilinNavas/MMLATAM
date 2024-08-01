@@ -4,7 +4,7 @@ import React from 'react';
 
 const Blog = ({ blogData }) => {
   return (
-    <section className='bg-[#0F0F11] py-20'>
+    <section className='bg-[#191919] py-20'>
       <div className="container mx-auto p-8 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {blogData.map((article, index) => (

@@ -22,8 +22,8 @@ const StartToday = ({ goals, startToday }) => {
         </div>
 
       </div>
-      <div className="flex justify-center items-end w-full pt-16 md:pb-20">
-        <Button bg={'bg-lime-500'} bgHover={'hover:bg-lime-600'} text={"Obtener una consulta gratuita"} textColor={'text-white'} especif={'rounded-none lg:max-w-96 lg:rounded-md px-0'} />
+      <div className="flex justify-center items-end w-full pt-16 lg:pb-20">
+        <Button  text={"Obtener una consulta gratuita"} especif={'rounded-none w-full lg:max-w-96 lg:rounded-md px-0'} />
       </div>
 
 

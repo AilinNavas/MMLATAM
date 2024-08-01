@@ -1,5 +1,6 @@
 import NavbarMobile from "../ui/general/NavbarMobile";
 import NavbarPc from "../ui/general/NavbarPc";
+import Footer from "../ui/home/Footer";
 
 export default function RootLayout({ children }) {
     return (
@@ -7,6 +8,7 @@ export default function RootLayout({ children }) {
             <NavbarMobile />
             <NavbarPc />
             {children}
+            <Footer />
         </>
     );
 }
