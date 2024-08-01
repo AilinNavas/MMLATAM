@@ -1,6 +1,5 @@
 
 import blogData from '../ui/data/blogData';
-import Footer from '../ui/home/Footer';
 
 
 export default function BlogPage() {

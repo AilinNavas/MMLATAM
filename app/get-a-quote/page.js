@@ -1,4 +1,4 @@
-import AboutUs from "../about-us/page";
+
 
 export default function getAQuotePage () {
   return (
@@ -15,17 +15,6 @@ export default function getAQuotePage () {
       </div>
     </div>
   
-  {/* <div>
-   
-      <iframe
-        src="https://whatsform.com/cvpmkh"
-        width="100%"
-        height="1200"
-        style={{ background: 'white', border: 'black' }}
-        title="WhatsForm"
-      ></iframe>
-    </div> */}
- 
     </main>
   );
 }
