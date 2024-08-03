@@ -13,9 +13,10 @@ import ailin from '@/public/ailin.png'
 const NavbarPc = () => {
 
   return (
-    <div className='hidden lg:flex bg-[#191919] h-[100px] items-center justify-around px-3'>
+    <section className='bg-[#191919]'>
+    <div className='hidden lg:flex bg-[#191919] h-[100px] items-center justify-around lg:max-w-7xl lg:m-auto'>
       <Logo />
-      <div className='flex justify-around items-center cursor-pointer lg:w-3/5' >
+      <div className='flex justify-around items-center cursor-pointer lg:w-4/5' >
         <FlyoutLink href='#' FlyoutContent={ServicesOptions}>
           <span className='flex items-center text-base font-medium leading-6 text-gray-200  hover:text-white'>¿Qué ofrecemos?
             <svg xmlns="http:www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5 ml-1" aria-hidden="true">
@@ -34,6 +35,7 @@ const NavbarPc = () => {
 
       </div>
     </div>
+    </section>
   )
 }
 

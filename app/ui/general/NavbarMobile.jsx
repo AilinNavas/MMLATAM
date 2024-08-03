@@ -7,7 +7,7 @@ import Logo from '../general/Logo';
 const NavbarMobile = () => {
     return (
         <div className='lg:hidden'>
-            <div className='flex items-center bg-[#191919] justify-between p-4'>
+            <div className='flex items-center bg-[#191919] justify-between py-2'>
                 <Logo />
                 <AnimatedHamburgerButton />
             </div>

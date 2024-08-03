@@ -26,6 +26,23 @@ html {
   flex-wrap: nowrap;
 }
 
+/* #aboutMM {
+  background-image: radial-gradient(circle, #c30bb1, #cb06a9, #d106a1, #d60b99, #db1392);
+} */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
 #aboutMM {
   background-image: radial-gradient(circle, #c30bb1, #cb06a9, #d106a1, #d60b99, #db1392);
+  background-size: 300% 300%;
+  animation: gradientAnimation 10s ease infinite;
 }
