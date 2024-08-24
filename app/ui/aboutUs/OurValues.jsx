@@ -20,7 +20,7 @@ const OurValues = () => {
         {
             title: 'Personalización',
             iconSrc: customization,
-            detail: 'Entendemos que cada práctica dental es única y adaptamos nuestros servicios para satisfacer las necesidades y objetivos específicos de cada cliente.'
+            detail: 'Entendemos que cada práctica es única y adaptamos nuestros servicios para satisfacer las necesidades y objetivos específicos de cada cliente.'
         }
     ];
 
