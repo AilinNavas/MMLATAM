@@ -24,11 +24,11 @@ const AnimatedHamburgerButton = () => {
 
     return (
         <MotionConfig transition={{ duration: 0.5, ease: "easeInOut" }}>
-            <div className='relative z-30'>
+            <div className='relative z-30 mr-1'>
                 <motion.button
                     initial={false}
                     onClick={() => setActive(pv => !pv)}
-                    className='relative z-20 h-16 w-16 rounded-full bg-white/0 transition-colors hover:bg-white/10'
+                    className='relative z-20 h-14 w-14 rounded-full bg-white/0 transition-colors hover:bg-white/10'
                     animate={active ? "open" : "closed"}
                 >
                     <motion.span
@@ -84,9 +84,16 @@ const AnimatedHamburgerButton = () => {
                             <Link href="/service/email-marketing" className="text-white text-2xl" onClick={handleLinkClick}>Email Marketing</Link>
                         </div>
                         <p className='pl-4 font-light text-white text-sm'>Transforma tu empresa con estrategias de email marketing probadas</p>
-                      
+                        <div className='flex'>
+                            <span className='w-1 h-8 rounded-full bg-white mr-2' />
                         <Link href="/about-us" className="text-white text-2xl ml-2 pt-1" onClick={handleLinkClick}>Sobre nosotros</Link>
+                        </div>
+                        <p className='pl-4 font-light text-white text-sm'>Creemos que todas las empresas merecen brillar en linea</p>
+                        <div className='flex'>
+                        <span className='w-1 h-8 rounded-full bg-white mr-2' />
                         <Link href="/blog" className="text-white text-2xl ml-2" onClick={handleLinkClick}>Blog</Link>
+                        </div>
+                        <p className='pl-4 font-light text-white text-sm'>Encontra más información en nuestros artículos</p>
                     </nav>
                 </motion.div>
             </div>

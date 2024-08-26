@@ -83,7 +83,7 @@ const Hero = () => {
               delay={1}
             />
             <AnimatedText
-              text="Performance."
+              text="Eficacia."
               finalColor="#9391F4"
               delay={2}
             />
