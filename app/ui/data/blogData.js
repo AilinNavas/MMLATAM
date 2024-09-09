@@ -3,7 +3,7 @@ const blogData = [
         "id": 1,
         "category": "Diseño Web",
         "title": "La importancia de un diseño web moderno",
-        "readingTime": "5 minutos",
+        "readingTime": "1 minutos",
         "colorCategory": "border-[#C30BB1]",
         "content": [
             {
@@ -25,7 +25,7 @@ const blogData = [
         "id": 2,
         "category": "Desarrollo Web",
         "title": "Cómo el desarrollo web personalizado supera a las plantillas",
-        "readingTime": "6 minutos",
+        "readingTime": "1 minutos",
         "colorCategory": "border-purple-500",
         "content": [
             {
@@ -47,7 +47,7 @@ const blogData = [
         "id": 3,
         "category": "Tecnología",
         "title": "Las tecnologías de desarrollo web más innovadoras",
-        "readingTime": "7 minutos",
+        "readingTime": "1 minutos",
         "colorCategory": "border-violet-800",
         "content": [
             {
@@ -68,7 +68,7 @@ const blogData = [
         "id": 4,
         "category": "SEO",
         "title": "Estrategias de SEO: Cómo posicionar tu sitio web en la cima",
-        "readingTime": "6 minutos",
+        "readingTime": "1 minutos",
         "colorCategory": "border-lime-500",
         "content": [
             {
